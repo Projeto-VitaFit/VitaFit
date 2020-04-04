@@ -35,7 +35,7 @@ header .wrapper {
 header .logo {
     height: 90px;
     margin: 0px;
-    position: relative;
+    position: fixed;
     top: 0px;
     padding: 6px;
     background: #fff;
@@ -46,11 +46,12 @@ header .logo a {
     color: orange;
 }
 header .wrapper .imge {
-    height: 150px;
-    width: 91%;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top: 55px;
+    top: 9%;
     float: left;
+    left: 0%;
 }
 header .wrapper .menu {
     padding: 5px 0;
@@ -58,6 +59,10 @@ header .wrapper .menu {
     flex-direction: row;
     justify-items: flex-end;
     height: 30px;
+    width: 550px;
+    right: 0%;
+    position: fixed;
+    text-transform: uppercase;
 }
 header .wrapper .menu-item {
     float: left;
@@ -80,7 +85,7 @@ header .wrapper .menu .sub-menu {
     position: absolute;
     top: 41px;
     left: 0px;
-    width: 145px;
+    width: 186px;
 }
 header .wrapper .menu .menu-item:hover > .sub-menu {
     display: block;
@@ -91,16 +96,20 @@ header .wrapper .menu .menu-item .sub-menu.cor li:hover a {
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
+nav .wrapper {
+    padding-top: 40%;
+
+}
 nav .wrapper #coluna {
     width: 100%;
     display: flex;
     flex-direction: row;
     margin: 25px;
+    margin-top: 5%;
 }
 nav .wrapper #coluna img {
     width: 20%;
     margin: 5px;
-    /* position: relative; */
 }
 nav .wrapper #coluna p{
     text-align: center;
@@ -113,6 +122,10 @@ nav .wrapper p{
     word-break: break-all;
 }
 
+footer {
+    margin-top: 55px;
+    position: sticky;
+}
 .wrapper .rodape {
     padding: 10px;
     margin: 0 auto;
@@ -121,30 +134,176 @@ nav .wrapper p{
     background-color: lightgreen;
     display: flex;
     flex-direction: row;
-    /* position: relative; */
     bottom: 0;
     width: 75%;
 }
 .wrapper .rodape .left {
     padding-left: 20px;
-    /* display: flex;
-    flex-direction: row; */
     position: relative;
 
 }
 .wrapper .rodape .center {
     padding-left: 20px;
-    /* display: flex;
-    flex-direction: row; */
     position: relative;
 }
 .wrapper .rodape .right {
     padding-left: 20px;
-    /* display: flex;
-    flex-direction: row; */
+    float: right;
+}
+.wrapper .rodape ul li a{
+    color: white;
+}* {
+    padding: 0;
+    margin: 0;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+body {
+    color: black;
+    font-family: 'roboto', sans-serif;
+}
+.wrapper {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 960px;
+    height: 100%;
+}
+header {
+    padding-top: 20px;
+    background-color: white;
+    padding: 10px 0;
+    margin-bottom: 10%;
+}
+header .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .logo {
+    height: 90px;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    padding: 6px;
+    background: #fff;
+    border-radius: 50%;
+    font-family: 'open sans', sans-serif;
+}
+header .logo a {
+    color: orange;
+}
+header .wrapper .imge {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 9%;
+    float: left;
+    left: 0%;
+}
+header .wrapper .menu {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    height: 30px;
+    width: 550px;
+    right: 0%;
+    position: fixed;
+    text-transform: uppercase;
+}
+header .wrapper .menu-item {
+    float: left;
+    position: relative;
+    height: 41px;
+}
+header .wrapper .menu-item a {
+    color: orange;
+    border-radius: 3px;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+header .wrapper .menu-item:hover a {
+    color: lightgreen;
+    background-color: orange;
+}
+header .wrapper .menu .sub-menu {
+    display: none;
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    width: 186px;
+}
+header .wrapper .menu .menu-item:hover > .sub-menu {
+    display: block;
+}
+header .wrapper .menu .menu-item .sub-menu.cor li:hover a {
+    background-color: green;
+    color: orangered;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+nav .wrapper {
+    padding-top: 40%;
+
+}
+nav .wrapper #coluna {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    margin-top: 5%;
+}
+nav .wrapper #coluna img {
+    width: 20%;
+    margin: 5px;
+}
+nav .wrapper #coluna p{
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    text-indent: 0;
+    font-size: smaller;
+}
+nav .wrapper p{
+    word-break: break-all;
+}
+
+footer {
+    margin-top: 55px;
+    position: sticky;
+}
+.wrapper .rodape {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width: 75%;
+}
+.wrapper .rodape .left {
+    padding-left: 20px;
+    position: relative;
+
+}
+.wrapper .rodape .center {
+    padding-left: 20px;
+    position: relative;
+}
+.wrapper .rodape .right {
+    padding-left: 20px;
     float: right;
 }
 .wrapper .rodape ul li a{
     color: white;
 }
-/* #1E90FF */
