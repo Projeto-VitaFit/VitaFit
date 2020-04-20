@@ -199,14 +199,7 @@ header .logo {
 header .logo a {
     color: orange;
 }
-header .wrapper .imge {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 9%;
-    float: left;
-    left: 0%;
-}
+
 header .wrapper .menu {
     padding: 5px 0;
     display: flex;
@@ -306,4 +299,20 @@ footer {
 }
 .wrapper .rodape ul li a{
     color: white;
+}
+.branco {
+    background-color: white;
+    width: 50%;
+    height: 500px;
+
+}
+.laranja {
+    background-color: orange;
+    width: 50%;
+    height: 500px;
+    
+}   
+.container {
+    display: flex ;
+    
 }
