@@ -165,46 +165,67 @@ header .wrapper .menu .menu-item .sub-menu.cor li:hover a {
 	text-transform: uppercase;
 }
 
+/* Fim do Menu */
 
 
-
-
-
-
-
-
-.texto-destaque {
-	text-align: center;
+.conteudo, .col-3 {
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+	
 }
 
-.texto-destaque h1 {
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
 	color: #ff4c05;
-	font-size: 60px;
 }
 
-.texto-destaque h2 {
+h2 {
+	display: flex;
+	justify-content: center;
 	color: #47dd3b;
-	font-size: 30px;
 }
 
-.col-3 {
-	padding-left: 15px;
-	padding-right: 15px;
-	width: 29%;
-	float: left;
-	position: relative;
-	margin-left: 22px;
+h3 {
+	display: flex;
+	justify-content: space-around;
+	color: #47dd3b;
+}
+body, html {
+	margin: 0;
+	font: 16px "Lato", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #777;
+	height: 100%;
+	
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.imagens-servico {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.nomes-servico {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.paragrafo-servicos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	text-align: center;
 }
 
-.col-3 h3 {
-	color: #47dd3b;
-	font-weight: 1000;
-}
-
-.col-3 p {
-	color: #1c1b1b;
-}
+/* Botão */
 
 .btns {
 	text-align: center;
@@ -234,4 +255,40 @@ header .wrapper .menu .menu-item .sub-menu.cor li:hover a {
 .efeito-1:hover {
 	background: #ff4c05;
 	color: #ffffff;
+}
+
+/* Efeito Parallax ------*/
+.caixa1, .caixa2, .caixa3, .caixa4 {
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background-image: url("../imagens/bannerbemvindo.jpg");
+}
+
+.caixa2{
+	background-image: url("../imagens/bannerdicas.jpg");
+}
+
+.caixa3{
+	background-image: url("../imagens/bannercoronga.jpg");
+}
+
+.caixa4{
+	background-image: url("../imagens/bannercoronga2.jpg")
+}
+
+.conteudo-titulo {
+	position: absolute;
+	left: 45%;
+	top: 45%;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+
 }
