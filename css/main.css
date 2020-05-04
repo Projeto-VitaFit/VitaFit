@@ -1,6 +1,8 @@
 /* Laranja: #ff4c05
 Verde: #47dd3b
 Branco: #ffffff */
+
+/* Botao menu */
 .botao01 {
 	-moz-box-shadow: 0px 10px 14px -7px #2cff19;
 	-webkit-box-shadow: 0px 10px 14px -7px #2cff19;
@@ -167,16 +169,11 @@ header .wrapper .menu .menu-item .sub-menu.cor li:hover a {
 
 /* Fim do Menu */
 
+/* Conteudo Home */
 
-.conteudo, .col-3 {
-	color: #777;
-	background-color: white;
-	text-align: justify;
-	padding: 50px 80px;
-	
-}
 
 h1 {
+	
 	display: flex;
 	justify-content: center;
 	font-size: 50px;
@@ -184,15 +181,18 @@ h1 {
 }
 
 h2 {
+	
 	display: flex;
 	justify-content: center;
 	color: #47dd3b;
+	
 }
 
 h3 {
 	display: flex;
 	justify-content: space-around;
 	color: #47dd3b;
+	
 }
 body, html {
 	margin: 0;
@@ -212,19 +212,88 @@ p {
 	justify-content: space-around;
 }
 
-.nomes-servico {
+.nomes-servico  {
+	padding-top: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
 
+
 .paragrafo-servicos {
+	padding-top: 10px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
 }
 
+.imagens-suaforma {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.nomes-suaforma {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.conteudo-esquerda {
+	padding-top: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-left: 50px;
+	padding-bottom: 25px;
+}
+
+.conteudo-paragrafo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-left: 50px;
+}
+
+.imagem-revolucao {
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+
+.conteudo2 {
+	padding-top: 100px;
+}
+
+.conteudo3 {
+	padding-top: 200px;
+	padding-bottom: 250px;
+}
+.conteudo-direita {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-left: 50px;
+	padding-bottom: 25px;
+}
+
+.imagem-avaliacao {
+	float: left;
+	padding-top: 12px;
+	padding-bottom: 50px;
+}
+
+.h11 {
+	padding-top: 80px;
+	
+}
+
+.h22 {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
 /* Botão */
 
 .btns {
@@ -292,3 +361,5 @@ p {
 	font-size: 25px;
 
 }
+
+/* Fim do Home */
