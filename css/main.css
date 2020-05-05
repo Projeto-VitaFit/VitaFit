@@ -412,13 +412,14 @@ p {
 }
 
 .h1-cadastro {
-	padding-top: 150px;
-	padding-right: 500px;
+	margin-top: 100px;
+	margin-right: 450px;
 	font-size: 90px;
 	color: #ffffff;
 	width: 100%;
 	text-align: center;
 }
+
 .conteudo-dietas {
 	position: absolute;
 	left: 50%;
