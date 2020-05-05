@@ -4,13 +4,13 @@ Branco: #ffffff */
 
 /* Botao menu */
 .botao01 {
-	-moz-box-shadow: 0px 10px 14px -7px #2cff19;
-	-webkit-box-shadow: 0px 10px 14px -7px #2cff19;
-	box-shadow: 0px 10px 14px -7px #2cff19;
+	-moz-box-shadow: 0px 10px 14px -7px #47dd3b;
+	-webkit-box-shadow: 0px 10px 14px -7px #47dd3b;
+	box-shadow: 0px 10px 14px -7px #47dd3b;
 	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffa812), color-stop(1, #62bd35) );
 	background:-moz-linear-gradient( center top, #ffa812 5%, #62bd35 100% ); */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa812', endColorstr='#62bd35');
-	background-color:#ffa812;
+	background-color:#ff4c05;
 	-webkit-border-top-left-radius:8px;
 	-moz-border-radius-topleft:8px;
 	border-top-left-radius:8px;
@@ -35,12 +35,13 @@ Branco: #ffffff */
     width:90px;
 	text-decoration:none;
 	text-align:center;
-	text-shadow:0px 1px 0px #ffae21;
-}.botao01:hover {
+	text-shadow:0px 1px 0px #ff4c05;
+}
+.botao01:hover {
 	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #62bd35), color-stop(1, #ffa812) );
 	background:-moz-linear-gradient( center top, #62bd35 5%, #ffa812 100% ); */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#62bd35', endColorstr='#ffa812');
-	background-color:#62bd35;
+	background-color:#47dd3b;
 }.botao01:active {
 	position:relative;
 	top:1px;
@@ -53,7 +54,7 @@ ul, li {
     list-style: none;
 }
 .wrapper .imge {
-    height: 70%;
+    height: auto;
     width: 100%;
 }
 body {
@@ -135,6 +136,58 @@ header .wrapper .menu .menu-item .sub-menu.cor li:hover a {
     color: orangered;
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
+section .wrapper .content.texto-destaque h1 {
+	padding: 3%;
+}
+section .wrapper .content.texto-destaque h2 {
+	padding-bottom: 3%;
+}
+section .wrapper .col-3 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1px;
+	margin-left: 5%;
+	float: left;
+}
+section .wrapper .col-3 img {
+    width: 100%;
+	height: 350px;
+	margin-bottom: 7%;
+}
+section .wrapper .col-3 .btns {
+	text-align: center;
+}
+
+section .wrapper .col-3 .btns .efeito {
+	border: none;
+	color: #ffffff;
+	padding: 14px;
+	margin: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	border-radius: 20px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+}
+
+section .wrapper .col-3 .btns .efeito-1 {
+	background: rgba(0,0,0,0);
+	color: #ff4c05;
+	box-shadow: inset 0 0 0 3px #ff4c05;
+	margin: 2% 0% 5% 0%;
+}
+
+section .wrapper .col-3 .btns .efeito-1:hover {
+	background: #ff4c05;
+	color: #ffffff;
+}
+
+
+
+
+
 
 .header-2 {
 	background-color: #ffffff;
@@ -361,7 +414,6 @@ p {
 
 /* Efeito Parallax ------*/
 .caixa1, .caixa2, .caixa3, .caixa4 {
-	position: relative;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -430,13 +482,6 @@ p {
 	position: absolute;
 
 }
-
-
-
-
-
-
-
 /* Fim do Home */
 .fundo1 {
     display: flex;
@@ -517,4 +562,43 @@ p {
     text-align: center;
     line-height: 28px;
     font-weight: normal;
-    font-family: Arial, Helvetica, sans serif; 
+	font-family: Arial, Helvetica, sans serif;
+}
+ /*rodape começa aqui */
+footer .wrapper .rodape {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    color: white;
+    background-color: #47dd3b;
+    bottom: 0%;
+    width: 100%;
+    position: initial;
+}
+footer .wrapper .rodape ul {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+footer .wrapper .rodape li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding: 30px;
+    width: 50px;
+    text-align: center;
+}
+footer .wrapper .rodape ul li a {
+    color: white;
+    padding: 3%;
+}
+footer .wrapper .rodape {
+    height: 100px;
+    bottom: 0%;
+}
+.wrapper .rodape p {
+    margin: 0 auto;
+    text-align: center;
+    word-break: break-all;
+
+}
