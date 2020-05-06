@@ -194,8 +194,12 @@ section .wrapper .testo {
 section .wrapper .corpo {
 	width: 100%;
 	height: auto;
+	margin-top: 5%;
 }
 
+section .wrapper .corpo .caixa-0 {
+	margin-top: 5%;
+}
 section .wrapper .corpo .caixa-0 img {
 	width: 43%;
 	float: left;
@@ -209,6 +213,25 @@ section .wrapper .corpo .caixa-0 p {
 	text-align: center;
 	margin: 0 auto;
 }
+section .wrapper .corpo .caixa-1 {
+	margin-top: 5%;
+}
+section .wrapper .corpo .caixa-1 img {
+	width: 43%;
+    float: right;
+    height: 300px;
+    margin: 1%;
+    display: table;
+}
+section .wrapper .corpo .caixa-1 p {
+	width: 55%;
+    word-break: break-word;
+	text-align: center;
+}
+section .wrapper .corpo .caixa-1 h1{
+	display: table;
+}
+
 .header-2 {
 	background-color: #ffffff;
 	width: 100%;
