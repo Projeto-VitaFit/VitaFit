@@ -57,6 +57,7 @@ ul, li {
     height: auto;
     width: 100%;
 }
+
 body {
     color: black;
     font-family: 'roboto', sans-serif;
@@ -687,3 +688,4 @@ footer .wrapper .rodape {
   color: #47dd3b;
   box-shadow: inset 0 0 0 3px #47dd3b;
 }
+
