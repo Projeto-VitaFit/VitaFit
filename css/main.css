@@ -602,3 +602,15 @@ footer .wrapper .rodape {
     word-break: break-all;
 
 }
+
+
+
+#exercicio {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	text-align: center;
+	justify-content: space-around; 
+	margin: 20px;
+}
+
