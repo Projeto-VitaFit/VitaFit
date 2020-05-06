@@ -203,20 +203,12 @@ section .wrapper .corpo .caixa-0 img {
 	margin: 1%;
 }
 section .wrapper .corpo .caixa-0 p {
-	width: 60%;
+	width: 55%;
     display: flex;
     word-break: break-word;
 	text-align: center;
 	margin: 0 auto;
 }
-section .wrapper .corpo .direita img {
-	width: 43%;
-	float: right;
-	height: 300px;
-	margin: 1%;
-}
-
-
 .header-2 {
 	background-color: #ffffff;
 	width: 100%;
@@ -666,11 +658,11 @@ footer .wrapper .rodape {
 	border: none;
 	color: #ffffff;
 	padding: 20px;
-	margin: 45px;
+	margin: 25px;
 	font-size: 20px;
 	line-height: 14px;
 	border-radius: 30px;
-	position: left;
+	position: relative;
 	box-sizing: border-box;
 	cursor: pointer;
 	transition: all 400ms ease;
