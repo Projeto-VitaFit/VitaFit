@@ -204,20 +204,12 @@ section .wrapper .corpo .caixa-0 img {
 	margin: 1%;
 }
 section .wrapper .corpo .caixa-0 p {
-	width: 60%;
+	width: 55%;
     display: flex;
     word-break: break-word;
 	text-align: center;
 	margin: 0 auto;
 }
-section .wrapper .corpo .direita img {
-	width: 43%;
-	float: right;
-	height: 300px;
-	margin: 1%;
-}
-
-
 .header-2 {
 	background-color: #ffffff;
 	width: 100%;
@@ -323,6 +315,20 @@ p {
 	justify-content: space-around;
 }
 
+.dieta  {
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+
+.acompanhamento {
+	padding-top: 20px;
+}
+
+.avaliacao {
+	padding-top: 20px;
+}
+
+
 .conteudo-esquerda {
 	padding-top: 5px;
 	display: flex;
@@ -379,10 +385,18 @@ p {
 /* Botão 1 */
 
 .btns  {
-	text-align: center;
+	display: flex;
+	
 }
 
-.efeito {
+.botao-por-favor {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 30px;
+}
+
+.efeito2 {
 	border: none;
 	color: #ffffff;
 	padding: 14px;
@@ -396,14 +410,14 @@ p {
 	transition: all 400ms ease;
 }
 
-.efeito-1 {
+.efeito-3 {
 	background: rgba(0,0,0,0);
 	color: #ff4c05;
 	box-shadow: inset 0 0 0 3px #ff4c05;
 	
 }
 
-.efeito-1:hover {
+.efeito-3:hover {
 	background: #ff4c05;
 	color: #ffffff;
 }
@@ -667,11 +681,11 @@ footer .wrapper .rodape {
 	border: none;
 	color: #ffffff;
 	padding: 20px;
-	margin: 45px;
+	margin: 25px;
 	font-size: 20px;
 	line-height: 14px;
 	border-radius: 30px;
-	position: left;
+	position: relative;
 	box-sizing: border-box;
 	cursor: pointer;
 	transition: all 400ms ease;
