@@ -197,6 +197,13 @@ section .wrapper .corpo {
 	height: auto;
 	margin-top: 5%;
 }
+section .wrapper .corpo .testo {
+	margin: 0 auto;
+    position: relative;
+    width: 75%;
+    word-break: break-all;
+    text-align: center;
+}
 
 section .wrapper .corpo .caixa-0 {
 	margin-top: 5%;
@@ -221,7 +228,8 @@ section .wrapper .corpo .caixa-1 img {
 	width: 43%;
     float: right;
     height: 300px;
-    margin: 1%;
+	margin: 5%;
+	margin-bottom: 10px;
     display: table;
 }
 section .wrapper .corpo .caixa-1 p {
@@ -658,7 +666,8 @@ footer .wrapper .rodape li {
 footer .wrapper .rodape ul li a {
 	text-decoration: none;
 	color: white;
-    padding: 3%;
+	padding: 3%;
+	display: contents;
     position: relative;
     left: 500px;
 }
