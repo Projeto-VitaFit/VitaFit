@@ -578,7 +578,7 @@ footer .wrapper .rodape {
     position: initial;
 }
 footer .wrapper .rodape ul {
-    position: relative;
+    position: absolute;
     text-align: center;
     margin: 0 auto;
 }
@@ -591,8 +591,11 @@ footer .wrapper .rodape li {
     text-align: center;
 }
 footer .wrapper .rodape ul li a {
-    color: white;
+	text-decoration: none;
+	color: white;
     padding: 3%;
+    position: relative;
+    left: 500px;
 }
 footer .wrapper .rodape {
     height: 100px;
@@ -601,10 +604,15 @@ footer .wrapper .rodape {
 .wrapper .rodape p {
     margin: 0 auto;
     text-align: center;
-    word-break: break-all;
-
+    float: left;
+    display: contents;
+    bottom: 0%;
+    z-index: 1;
 }
-
+.imge {
+	height: auto;
+	width: 100%;
+}
 
 
 #exercicio {
