@@ -643,9 +643,9 @@ p {
 	font-family: Arial, Helvetica, sans serif;
 }
  /*rodape começa aqui */
+
 footer .wrapper .rodape {
     margin: 0 auto;
-    text-align: center;
     display: flex;
     color: white;
     background-color: #47dd3b;
@@ -655,27 +655,25 @@ footer .wrapper .rodape {
 }
 footer .wrapper .rodape ul {
     position: absolute;
-    text-align: center;
     margin: 0 auto;
 }
 footer .wrapper .rodape li {
     display: flex;
     flex-direction: row;
     float: left;
+	padding-left: 100px;
     padding: 30px;
     width: 50px;
-    text-align: center;
 }
 footer .wrapper .rodape ul li a {
 	text-decoration: none;
 	color: white;
-	padding: 3%;
-	display: contents;
+    padding: 3%;
     position: relative;
-    left: 500px;
+    left: 50px;
 }
 footer .wrapper .rodape {
-    height: 100px;
+    height: 75px;
     bottom: 0%;
 }
 .wrapper .rodape p {
@@ -686,6 +684,35 @@ footer .wrapper .rodape {
     bottom: 0%;
     z-index: 1;
 }
+
+.paragrafo-rodape {
+	padding-top: 5px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	padding-left: 1100px;
+	position: relative;
+	padding-top: 18px;
+	
+}
+
+.face {
+	padding-right: 30px;
+}
+.insta {
+	padding-right: 30px;
+
+}
+
+.twitter {
+	padding-right: 30px;
+}
+
 .imge {
 	height: auto;
 	width: 100%;
