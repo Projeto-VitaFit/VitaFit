@@ -184,10 +184,46 @@ section .wrapper .col-3 .btns .efeito-1:hover {
 	background: #ff4c05;
 	color: #ffffff;
 }
+section .wrapper .testo {
+	margin: 0 auto;
+    position: relative;
+    width: 75%;
+    word-break: break-all;
+    text-align: center;
+}
+section .wrapper .corpo {
+	width: 100%;
+	height: auto;
+}
+section .wrapper .corpo .direita img {
+	width: 43%;
+	float: left;
+	height: 300px;
+	margin: 1%;
+}
+section .wrapper .corpo .direita p,h1 {
+	width: 55%;
+    display: flex;
+    word-break: break-word;
+    text-align: center;
+}
+section .wrapper .corpo .direita ul,li {
+	margin: 0 auto;
+}
 
-
-
-
+section .wrapper .corpo .esquerda img {
+	width: 43%;
+	float: right;
+	height: 300px;
+	margin: 1%;
+}
+section .wrapper .corpo .esquerda p {
+	width: 60%;
+    display: flex;
+    word-break: break-word;
+	text-align: center;
+	margin: 0 auto;
+}
 
 
 .header-2 {
@@ -227,7 +263,7 @@ section .wrapper .col-3 .btns .efeito-1:hover {
 
 
 h1 {
-	
+	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	font-size: 50px;
@@ -578,7 +614,7 @@ footer .wrapper .rodape {
     position: initial;
 }
 footer .wrapper .rodape ul {
-    position: relative;
+    position: absolute;
     text-align: center;
     margin: 0 auto;
 }
@@ -591,8 +627,11 @@ footer .wrapper .rodape li {
     text-align: center;
 }
 footer .wrapper .rodape ul li a {
-    color: white;
+	text-decoration: none;
+	color: white;
     padding: 3%;
+    position: relative;
+    left: 500px;
 }
 footer .wrapper .rodape {
     height: 100px;
@@ -601,10 +640,15 @@ footer .wrapper .rodape {
 .wrapper .rodape p {
     margin: 0 auto;
     text-align: center;
-    word-break: break-all;
-
+    float: left;
+    display: contents;
+    bottom: 0%;
+    z-index: 1;
 }
-
+.imge {
+	height: auto;
+	width: 100%;
+}
 
 
 #exercicio {
