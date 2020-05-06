@@ -280,7 +280,7 @@ section .wrapper .corpo .caixa-1 h1{
 /* Conteudo Home */
 
 
-h1 {
+h1 { 
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -709,7 +709,7 @@ footer .wrapper .rodape {
 
 .bntspa {
 	text-align: center;
-	margin-top: 50px;
+	margin-left: 50px;
 }
 
 .efeitopa {
@@ -723,9 +723,8 @@ footer .wrapper .rodape {
 	position: relative;
 	box-sizing: border-box;
 	cursor: pointer;
-	transition: all 400ms ease;
-
 }
+
 
 .efeito-pa:hover  {
   background: #47dd3b;
@@ -735,6 +734,39 @@ footer .wrapper .rodape {
 .efeito-pa {
   background: rgba(0,0,0,0);
   color: #47dd3b;
-  box-shadow: inset 0 0 0 3px #47dd3b;
+  box-shadow: inset 0 0 0 4px #47dd3b;
 }
 
+
+p {
+	font-family: ph1;
+}
+.dica-p1 {
+	text-align: center; 
+	font-family: ph1;
+}
+
+.dica-p {
+	font-family: ph1;
+	padding: 0px 0px 0px 80px; 
+}
+
+@font-face {
+	src: url("fonte/MADE_Tommy_Soft_Medium_PERSONAL_USE.otf");
+	font-family: "ph1";
+}
+
+
+.titulo {
+
+	font-size: 85px;
+}
+
+.titulo2 {
+	font-size: 28px;
+}
+.texto {
+	list-style-type: disc; 
+	padding: 0px 0px 0px 200px;
+
+}
