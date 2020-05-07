@@ -204,8 +204,11 @@ section .wrapper .corpo .testo {
     text-align: center;
 }
 section .wrapper .corpo .caixa-nutri {
-	width: 100%;
-	margin: 0 auto;
+	width: 75%;
+	float: left;
+	padding: 1%;
+	word-break: initial;
+	text-align: center;
 }
 
 section .wrapper .corpo .caixa-0 {
