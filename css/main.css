@@ -76,10 +76,16 @@ header .wrapper {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.bloco-wrapper {
+	margin-left: 70px;
+}
+
 header .wrapper .menu .logo1 .logo {
     margin: 0px;
     padding: 0px;
     width: 100%;
+	
 }
 header .wrapper .menu .logo {
     height: auto;
@@ -105,38 +111,25 @@ header .wrapper .menu {
 header .wrapper .menu-item {
     float: left;
     position: relative;
-    height: 100%;
 }
+
 header .wrapper .menu-item a {
     text-decoration: none;
-    font-weight: bold;
-    color: orange;
+    font-weight: medium;
+    color: #000;
+	font-size: 14px;
     border-radius: 3px;
     display: block;
-    padding: 10px;
+    padding: 15px;
+	margin-top: 15px;
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 header .wrapper .menu-item:hover a {
-    color: lightgreen;
-    background-color: orange;
+    color: #ff4c05;
+    background-color: #fff;
 }
-header .wrapper .menu .sub-menu {
-	z-index: 1;
-	list-style: none;
-    display: none;
-    position: absolute;
-    top: 41px;
-    left: 0px;
-    width: 180%;
-}
-header .wrapper .menu .menu-item:hover .sub-menu {
-    display: block;
-}
-header .wrapper .menu .menu-item .sub-menu.cor li:hover a {
-    background-color: green;
-    color: orangered;
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
+
+
 section .wrapper .content.texto-destaque h1 {
 	padding: 3%;
 }
@@ -204,17 +197,8 @@ section .wrapper .corpo .testo {
     text-align: center;
 }
 section .wrapper .corpo .caixa-nutri {
-	width: 75%;
-	float: left;
-	padding: 1%;
-	word-break: initial;
-	text-align: center;
-}
-
-section .wrapper .corpo .caixa.lado {
-	width: 30%;
-    float: left;
-    margin: 1%;
+	width: 100%;
+	margin: 0 auto;
 }
 
 section .wrapper .corpo .caixa-0 {
@@ -819,3 +803,4 @@ footer .wrapper .rodape {
 .caixa-servicos {
 	background-image: url("../imagens/bannerservicos.jpg");
 }
+
