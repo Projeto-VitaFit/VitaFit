@@ -765,28 +765,15 @@ footer .wrapper .rodape {
 }
 
 
-p {
-	font-family: ph1;
-}
-.dica-p1 {
-	text-align: center; 
-	font-family: ph1;
-}
 
 .dica-p {
-	font-family: ph1;
 	padding: 0px 0px 0px 80px; 
-}
-
-@font-face {
-	src: url("fonte/MADE_Tommy_Soft_Medium_PERSONAL_USE.otf");
-	font-family: "ph1";
 }
 
 
 .titulo {
 
-	font-size: 85px;
+	font-size: 70px;
 }
 
 .titulo2 {
@@ -795,5 +782,27 @@ p {
 .texto {
 	list-style-type: disc; 
 	padding: 0px 0px 0px 200px;
+}
 
+/* Efeito Parallax ------*/
+
+.caixaexercicio, .caixapa, .caixafitoterapia {
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.caixaexercicio {
+	background-image: url("../imagens/dica1.jpg");
+}
+
+.caixapa {
+	background-image: url("../imagens/dica2.jpg");
+}
+
+.caixafitoterapia {
+	background-image: url("../imagens/dica3.jpg");
 }
