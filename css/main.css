@@ -205,6 +205,11 @@ section .wrapper .corpo .caixa-nutri {
 section .wrapper .corpo .caixa-0 {
 	margin-top: 5%;
 }
+section .wrapper .corpo .caixa.lado {
+	width: 28%;
+	float: left;
+	margin: 3px;
+}
 section .wrapper .corpo .caixa-0 img {
 	width: 43%;
 	float: left;
