@@ -1,0 +1,58 @@
+body{
+     font-family: "verdana";
+
+}
+          
+       h1{
+
+       color: orange;
+       }
+
+       h4{
+
+       color: lawngreen; 
+}
+
+h4 {
+    margin: 0 auto;
+    
+}
+
+.caixa-text { 
+
+    width: 75% ;
+    height: 100px ;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: collum;
+    padding:10px;
+    margin-bottom: 5px;
+
+}
+
+.box-50 {
+
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 5px;
+} 
+
+.field{
+    width: 80%;
+    display: fle0x;
+    flex-direction: collum ;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+    
+
+
+      

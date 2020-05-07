@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <link rel="stylesheet" href="css/contato.css" type="text/css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contato</title>
     </head>
+
     <body>
         <section class="content">
             <div class="contato">
-                <h3>Formulário de Contato</h3>   
-                <form class="form" method="POST" action="./email.php">
-                    <input class="field"  name="name" placeholder="Nome">
-                    <input class="field"  name="email" placeholder="E-mail">
-                    <textarea class="field" name="mesage" placeholder="Digite sua mensagem aqui."></textarea>
-                    <input type="submit" value= "Enviar">
-                </form>
-            </div>
-        </section>
-    </body>
+                
+             <h1><center>Fale Conosco</center> </h1> 
+
+             <h4><center>AGRADECEMOS O SEU CONTATO. ESTAREMOS SEMPRE Á DISPOSIÇÃO PARA MELHOR ATENDÊ-LO.</h4></center> <br></br>
+              
+                
+            
+        <form class="form" method="POST" action="./email.php">
+            
+           
+            <font-size>Nome:</font-size>
+            <input class="box-50"  name="name" > 
+
+            <font-size>Sobrenome:</font-size> 
+            <input class="box-50"  name="name" >  
+                 
+                <font-size>E-mail:</font-size>
+                <input class="field"  name="email" >     
+                   
+                     
+                <font-size>Assunto:</font-size>
+                <input class="field"  name="Assunto" > 
+                  
+                <font-size>Mensagem:</font-size>
+                <input class="caixa-text"  name="Mensagem" > 
+                     
+
+                <input type="submit" value= "Enviar">
+
+            </form>
+        </div>
+    </section>
+  </body>
 </html>
