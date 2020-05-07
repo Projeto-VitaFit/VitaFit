@@ -62,6 +62,7 @@ ul, li {
     height: 250px;
 }
 body {
+	background-image: url("banner.jpg");
     color: black;
     font-family: 'roboto', sans-serif;
     max-height: 960px;
