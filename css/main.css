@@ -182,7 +182,7 @@ section .wrapper .testo {
 	margin: 0 auto;
     position: relative;
     width: 75%;
-    word-break: break-all;
+    word-break: break-word;
     text-align: center;
 }
 section .wrapper .corpo {
@@ -194,7 +194,7 @@ section .wrapper .corpo .testo {
 	margin: 0 auto;
     position: relative;
     width: 75%;
-    word-break: break-all;
+    word-break: break-word;
     text-align: center;
 }
 section .wrapper .corpo .caixa-nutri {
