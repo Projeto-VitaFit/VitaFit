@@ -72,7 +72,7 @@ header {
     width: 100%;
 }
 header .wrapper {
-	background-color: #FFF9F9;
+	
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -128,7 +128,7 @@ header .wrapper .menu-item a {
 }
 header .wrapper .menu-item:hover a {
     color: #ff4c05;
-    background-color: #FFF9F9;
+    background-color: #fff;
 }
 
 
