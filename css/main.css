@@ -208,6 +208,7 @@ section .wrapper .corpo .caixa-nutri {
 	float: left;
 	padding: 1%;
 	word-break: initial;
+	text-align: center;
 }
 
 section .wrapper .corpo .caixa-0 {
