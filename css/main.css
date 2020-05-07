@@ -795,7 +795,7 @@ footer .wrapper .rodape {
 
 /* Efeito Parallax ------*/
 
-.caixaexercicio, .caixapa, .caixafitoterapia {
+.caixaexercicio, .caixapa, .caixafitoterapia, .caixa-servicos {
 	position: relative;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -814,4 +814,8 @@ footer .wrapper .rodape {
 
 .caixafitoterapia {
 	background-image: url("../imagens/dica3.jpg");
+}
+
+.caixa-servicos {
+	background-image: url("../imagens/bannerservicos.jpg");
 }
