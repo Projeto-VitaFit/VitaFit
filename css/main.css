@@ -770,14 +770,6 @@ footer .wrapper .rodape {
 }
 
 
-.titulo {
-
-	font-size: 70px;
-}
-
-.titulo2 {
-	font-size: 28px;
-}
 .texto {
 	list-style-type: disc; 
 	padding: 0px 0px 0px 200px;
@@ -785,7 +777,7 @@ footer .wrapper .rodape {
 
 /* Efeito Parallax ------*/
 
-.caixaexercicio, .caixapa, .caixafitoterapia, .caixa-servicos {
+.caixaexercicio, .caixapa, .caixafitoterapia, .caixa-servico {
 	position: relative;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -806,7 +798,7 @@ footer .wrapper .rodape {
 	background-image: url("../imagens/dica3.jpg");
 }
 
-.caixa-servicos {
+.caixa-servico {
 	background-image: url("../imagens/bannerservicos.jpg");
 }
 
