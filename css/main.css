@@ -800,4 +800,20 @@ footer .wrapper .rodape {
 	background-image: url("../imagens/dica3.jpg");
 }
 
+#fitoterapia {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	justify-content: space-around; 
+	margin: 20px;
+}
+
+.ft {
+	list-style-type: disc; 
+	padding: 0px 50px 0px 50px;
+}
+
+.receita {
+	padding: 0px 0px 0px 35px;
+}
 
