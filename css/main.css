@@ -103,7 +103,7 @@ header .wrapper .menu {
     padding: 5px 0;
     display: flex;
     flex-wrap: wrap;
-    left: 94px;
+    left: 84px;
     flex-direction: row;
     justify-items: flex-end;
     height: 77%;
@@ -208,6 +208,133 @@ section .wrapper .corpo .caixa-nutri {
 section .wrapper .corpo .caixa-0 {
 	margin-top: 5%;
 }
+/*inicio parallax serviços*/
+.bannerservicos {
+	background-image: url("../imagens/bannerservicos.jpg");
+	position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.bannernutricionista {
+	background-image: url("../imagens/bannernutricionista.jpg");
+	position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.corponutricionista1 {
+	background-image: url("../imagens/nutricionista-s-caixa2.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.corponutricionista2 {
+	background-image: url("../imagens/nutricionista-s-caixa2.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.banneryoga {
+	background-image: url("../imagens/banneryoga.jpeg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.bannerpersonal {
+	background-image: url("../imagens/bannerpersonal.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.bannerpilates {
+	background-image: url("../imagens/bannerpilates.jpeg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.bannerdanca {
+	background-image: url("../imagens/bannerdanca.jpeg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+
+.box-1 {
+	background-image: url("../imagens/bannerartesmarciais.jpg");
+	position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+
+.box-2{
+	background-image: url("../imagens/ashima-pargal-servicos.jpg");
+	position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 180px;
+    padding-top: 180px;
+}
+.box-3 {
+	background-image: url("../imagens/lutas.jpg");
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 250px;
+    margin: 70% 0 0%;
+    padding-top: 250px;
+}
+.box-content {
+	position: absolute;
+	left: 45%;
+	top: 45%;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+}
+/*fim parallax serviços*/
+
 /*inicio lutas parte text*/
 section .wrapper .box-corpo {
     width: 100%;
