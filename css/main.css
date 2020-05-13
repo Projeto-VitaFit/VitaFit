@@ -101,8 +101,9 @@ header .wrapper .menu .logo {
 header .wrapper .menu {
 	list-style: none;
     padding: 5px 0;
-	display: flex;
-	left: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 94px;
     flex-direction: row;
     justify-items: flex-end;
     height: 77%;
