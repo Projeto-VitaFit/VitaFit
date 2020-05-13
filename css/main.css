@@ -102,7 +102,7 @@ header .wrapper .menu {
 	list-style: none;
     padding: 5px 0;
 	display: flex;
-	left: 5%;
+	left: 94px;
     flex-direction: row;
     justify-items: flex-end;
     height: 77%;
@@ -131,8 +131,6 @@ header .wrapper .menu-item:hover a {
     color: #ff4c05;
     background-color: #fff;
 }
-
-
 section .wrapper .content.texto-destaque h1 {
 	padding: 3%;
 }
@@ -143,13 +141,14 @@ section .wrapper .col-3 {
     width: 40%;
     margin: 0 auto;
     padding: 1px;
-	margin-left: 5%;
-	float: left;
+	margin-right: 6%;
+	float: right;
 }
 section .wrapper .col-3 img {
-    width: 100%;
-	height: 350px;
-	margin-bottom: 7%;
+	width: 100%;
+    height: 300px;
+    margin-bottom: 7%;
+    border-radius: 10px;
 }
 section .wrapper .col-3 .btns {
 	text-align: center;
