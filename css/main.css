@@ -570,87 +570,131 @@ p {
 
 }
 /* Fim do Home */
-.fundo1 {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    }
+/* Começo do sobre */
+.container {
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 100%;
+}
 
-.laranja {
-	background-color: #ff4c05;
+.textoApresentacao {
+	text-align: center;
+	display: flex;
+	font-size: 18px;
+	
+	width: 70%;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.fullWidthImage{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.conteudos {
+	display: flex;
+	flex-direction: row;
+	flex:1;
+	margin-top: 50px;
+}
+.sobre2 {
+	height: 400px;
+	width: 50%;	
+	padding: 50px;
+}
+.imagem2 {
+	height: 400px;
+	width: 100%;
+}
+.valores{ 
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	width: 50%;
-	height: 300px;
-	padding:10px;
-	border: #000000;
-	border-width: 2px;
-	border-style: solid;
+	margin-left: 50px;
 }
-.verde {
-    background-color: #47dd3b;
-    width: 50%;
-	height: 300px;
-	padding:10px;
-	border: #000000;
-	border-width: 2px;
-	border-style: solid;
-	border-left-width: 0px;
-}
-.fundo2 {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    margin-top: 40px;
-}  
-.verde2 {
-    background-color: #47dd3b;
-	width: 33%;
-	border: #000000;
-	border-width: 1px;
-	border-style: solid;
-	padding: 10px;
-   
-}
-.laranja2 {
-    background-color: #ff4c05;
-	width: 33%;
-	border: #000000;
-	border-width: 1px;
-	border-style: solid;
-	padding: 10px;
-    
-}
-.laranja3 {
-    background-color: #ff4c05;
-	width: 33%;
-	border: #000000;
-	border-width: 1px;
-	border-style: solid;
-	padding: 10px;
+.texts {
+	color: #47dd3b;
+	font-size: 30px;
+	font-weight: bold;
 
 }
-.title2 {
-    text-align: center;
-    font-size: 36px;
-    font-style: normal;
-    color: #000000;
-    letter-spacing: 4px;
+.texts2 {
+	margin-left: 20px;
 }
-.cont {
-    font-size: 18px;
-    color:#000000;
-    text-align: left;
-    line-height: 28px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
+.objetivos{ 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+	text-align: center;
 }
-.cont2 {
-    font-size: 18px;
-    color:#000000;
-    text-align: center;
-    line-height: 28px;
-    font-weight: normal;
-	font-family: Arial, Helvetica, sans serif;
+
+.inscreverDiv {
+	display: flex;
+	justify-self: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px;
+	background-color: #47dd3b ;
+	width: 80%;
+	height: 210px;
+	margin: auto;
+	margin-top: 50px;
 }
+
+.inscreverTitulo {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 25px;
+}
+
+.inscreverDescricao {
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+
+.inscreverDivInput {
+	display: flex;
+	align-self: center;
+	width: 100%;
+	justify-content: center;
+}
+
+.inscreverInput {
+	background-color: white;
+	color: black;
+	height: 30px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	width: 25%;
+}
+
+.inscreverButton {
+	height: 30px;
+	width: 13%;
+	background-color: #47dd3b;
+	border-radius: 16px;
+	border-style: solid;
+	border-color: white;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.inscreverPrivacidade {
+	font-size: 12px;
+	text-align: center;
+	color: white;
+}
+
+/* Fim do sobre */
  /*rodape começa aqui */
 
 footer .wrapper .rodape {
