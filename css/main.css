@@ -707,8 +707,6 @@ p {
 /* Começo do sobre */
 
 .container {
-	padding-left: 50px;
-	padding-right: 50px;
 	width: 100%;
 }
 
@@ -733,7 +731,7 @@ p {
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 380px;
-    padding-top: 380px;
+	padding-top: 380px;
 }
 
 .conteudos {
