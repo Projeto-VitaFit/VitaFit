@@ -1,0 +1,258 @@
+.botao01 {
+	
+	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffa812), color-stop(1, #62bd35) );
+	background:-moz-linear-gradient( center top, #ffa812 5%, #62bd35 100% ); */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000', endColorstr='#000');
+	background-color:#47dd3b;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+    text-indent:0;
+	display:inline-block;
+	color:#fff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+    height:40px;
+	line-height:41px;
+    width:90px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #000;
+	margin-top: 23px;
+	margin-right: 100px;
+}
+.botao01:hover {
+	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #62bd35), color-stop(1, #ffa812) );
+	background:-moz-linear-gradient( center top, #62bd35 5%, #ffa812 100% ); */
+	
+	background-color:#31D324;
+}.botao01:active {
+	position:relative;
+	top:1px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrapper .imge {
+    height: auto;
+    width: 100%;
+}
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+header {
+	margin-left: 0px;
+    padding-top: 20px;
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+}
+header .wrapper {
+	
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloco-wrapper {
+	margin-left: 70px;
+}
+
+header .wrapper .menu .logo1 .logo {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+	
+}
+header .wrapper .menu .logo {
+    height: auto;
+    max-width: 130px;
+    position: relative;
+    top: 0px;
+    padding: 6px;
+    padding-right: 1%;
+    padding-left: 3%;
+}
+header .wrapper .menu {
+    list-style: none;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    left: 84px;
+    flex-direction: row;
+    justify-items: flex-end;
+    height: 77%;
+    margin: 0 auto;
+    top: 4%;
+    position: relative;
+    text-transform: uppercase;
+}
+header .wrapper .menu-item {
+    float: left;
+    position: relative;
+}
+
+header .wrapper .menu-item a {
+    text-decoration: none;
+    font-weight: medium;
+    color: #000;
+	font-size: 14px;
+    border-radius: 3px;
+    display: block;
+    padding: 15px;
+	margin-top: 15px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+header .wrapper .menu-item:hover a {
+    color: #ff4c05;
+    background-color: #fff;
+}
+.wrapper .imge {
+    height: auto;
+    width: 100%;
+}
+
+body{
+     font-family: "verdana";
+}
+          
+h1{
+    margin: 0 auto;
+    text-align: center;
+    color: orange;
+}
+
+h4{
+    color: lawngreen; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.caixa-text { 
+
+    width: 80% ;
+    height: 100px ;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    padding:10px;
+    margin-bottom: 5px;
+
+}
+
+.box-50 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    position: relative;
+    right: 20%;
+    border-radius: 2%;
+} 
+
+.field {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    word-break: break-all;
+}
+
+.buttom {
+    float: right;
+    display: flex;
+    position: relative;
+    right: 9%;
+    width: 5%;
+    height: 7%;
+    text-align: center;
+}
+
+footer .wrapper .rodape {
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    background-color: #47dd3b;
+    bottom: 0%;
+    width: 100%;
+    position: initial;
+}
+footer .wrapper .rodape ul {
+    position: absolute;
+    margin: 0 auto;
+}
+footer .wrapper .rodape li {
+    display: flex;
+    flex-direction: row;
+    float: left;
+	padding-left: 100px;
+    padding: 30px;
+    width: 50px;
+}
+footer .wrapper .rodape ul li a {
+	text-decoration: none;
+	color: white;
+    padding: 3%;
+    position: relative;
+    left: 50px;
+}
+footer .wrapper .rodape {
+    height: 75px;
+    bottom: 0%;
+}
+.wrapper .rodape p {
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+    display: contents;
+    bottom: 0%;
+    z-index: 1;
+}
+
+.paragrafo-rodape {
+	padding-top: 5px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 12px;
+}
+.social {
+	display: flex;
+	flex-direction: row;
+	padding-left: 1100px;
+	position: relative;
+	padding-top: 18px;
+	
+}
+
+.face {
+	padding-right: 30px;
+}
+.insta {
+	padding-right: 30px;
+
+}
+
+.twitter {
+	padding-right: 30px;
+}

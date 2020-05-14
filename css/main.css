@@ -4,13 +4,11 @@ Branco: #ffffff */
 
 /* Botao menu */
 .botao01 {
-	-moz-box-shadow: 0px 10px 14px -7px #47dd3b;
-	-webkit-box-shadow: 0px 10px 14px -7px #47dd3b;
-	box-shadow: 0px 10px 14px -7px #47dd3b;
+	
 	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffa812), color-stop(1, #62bd35) );
 	background:-moz-linear-gradient( center top, #ffa812 5%, #62bd35 100% ); */
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa812', endColorstr='#62bd35');
-	background-color:#ff4c05;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000', endColorstr='#000');
+	background-color:#47dd3b;
 	-webkit-border-top-left-radius:8px;
 	-moz-border-radius-topleft:8px;
 	border-top-left-radius:8px;
@@ -25,7 +23,7 @@ Branco: #ffffff */
 	border-bottom-left-radius:8px;
     text-indent:0;
 	display:inline-block;
-	color:#ffffff;
+	color:#fff;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
@@ -35,13 +33,15 @@ Branco: #ffffff */
     width:90px;
 	text-decoration:none;
 	text-align:center;
-	text-shadow:0px 1px 0px #ff4c05;
+	text-shadow:0px 1px 0px #000;
+	margin-top: 23px;
+	margin-right: 100px;
 }
 .botao01:hover {
 	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #62bd35), color-stop(1, #ffa812) );
 	background:-moz-linear-gradient( center top, #62bd35 5%, #ffa812 100% ); */
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#62bd35', endColorstr='#ffa812');
-	background-color:#47dd3b;
+	
+	background-color:#31D324;
 }.botao01:active {
 	position:relative;
 	top:1px;
@@ -66,20 +66,28 @@ body {
     margin: 0 auto;
 }
 header {
+	margin-left: 0px;
     padding-top: 20px;
     padding: 0% 0% 0% 0%;
     width: 100%;
 }
 header .wrapper {
+	
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+.bloco-wrapper {
+	margin-left: 70px;
+}
+
 header .wrapper .menu .logo1 .logo {
     margin: 0px;
     padding: 0px;
     width: 100%;
+	
 }
 header .wrapper .menu .logo {
     height: auto;
@@ -94,6 +102,8 @@ header .wrapper .menu {
 	list-style: none;
     padding: 5px 0;
     display: flex;
+    flex-wrap: wrap;
+    left: 84px;
     flex-direction: row;
     justify-items: flex-end;
     height: 77%;
@@ -105,37 +115,22 @@ header .wrapper .menu {
 header .wrapper .menu-item {
     float: left;
     position: relative;
-    height: 100%;
 }
+
 header .wrapper .menu-item a {
     text-decoration: none;
-    font-weight: bold;
-    color: orange;
+    font-weight: medium;
+    color: #000;
+	font-size: 14px;
     border-radius: 3px;
     display: block;
-    padding: 10px;
+    padding: 15px;
+	margin-top: 15px;
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 header .wrapper .menu-item:hover a {
-    color: lightgreen;
-    background-color: orange;
-}
-header .wrapper .menu .sub-menu {
-	z-index: 1;
-	list-style: none;
-    display: none;
-    position: absolute;
-    top: 41px;
-    left: 0px;
-    width: 180%;
-}
-header .wrapper .menu .menu-item:hover .sub-menu {
-    display: block;
-}
-header .wrapper .menu .menu-item .sub-menu.cor li:hover a {
-    background-color: green;
-    color: orangered;
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    color: #ff4c05;
+    background-color: #fff;
 }
 section .wrapper .content.texto-destaque h1 {
 	padding: 3%;
@@ -147,13 +142,14 @@ section .wrapper .col-3 {
     width: 40%;
     margin: 0 auto;
     padding: 1px;
-	margin-left: 5%;
-	float: left;
+	margin-right: 6%;
+	float: right;
 }
 section .wrapper .col-3 img {
-    width: 100%;
-	height: 350px;
-	margin-bottom: 7%;
+	width: 100%;
+    height: 300px;
+    margin-bottom: 7%;
+    border-radius: 10px;
 }
 section .wrapper .col-3 .btns {
 	text-align: center;
@@ -188,7 +184,7 @@ section .wrapper .testo {
 	margin: 0 auto;
     position: relative;
     width: 75%;
-    word-break: break-all;
+    word-break: break-word;
     text-align: center;
 }
 section .wrapper .corpo {
@@ -200,26 +196,164 @@ section .wrapper .corpo .testo {
 	margin: 0 auto;
     position: relative;
     width: 75%;
-    word-break: break-all;
+    word-break: break-word;
     text-align: center;
 }
 section .wrapper .corpo .caixa-nutri {
-	width: 75%;
-	float: left;
-	padding: 1%;
-	word-break: initial;
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
-}
-
-section .wrapper .corpo .caixa.lado {
-	width: 30%;
-    float: left;
-    margin: 1%;
 }
 
 section .wrapper .corpo .caixa-0 {
 	margin-top: 5%;
 }
+/*inicio parallax serviços*/
+.bannerservicos {
+	background-image: url("../imagens/bannerservicos.jpg");
+	position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.bannernutricionista {
+	background-image: url("../imagens/bannernutricionista.jpg");
+	position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.corponutricionista1 {
+	background-image: url("../imagens/nutricionista-s-caixa2.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.corponutricionista2 {
+	background-image: url("../imagens/nutricionista-s-caixa2.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.banneryoga {
+	background-image: url("../imagens/banneryoga.jpeg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.bannerpersonal {
+	background-image: url("../imagens/bannerpersonal.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.bannerpilates {
+	background-image: url("../imagens/bannerpilates.jpeg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+.bannerdanca {
+	background-image: url("../imagens/bannerdanca.jpeg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+
+.box-1 {
+	background-image: url("../imagens/bannerartesmarciais.jpg");
+	position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+
+.box-2{
+	background-image: url("../imagens/ashima-pargal-servicos.jpg");
+	position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 180px;
+    padding-top: 180px;
+}
+.box-3 {
+	background-image: url("../imagens/lutas.jpg");
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 250px;
+    margin: 70% 0 0%;
+    padding-top: 250px;
+}
+.box-content {
+	position: absolute;
+	left: 45%;
+	top: 45%;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+}
+/*fim parallax serviços*/
+
+/*inicio lutas parte text*/
+section .wrapper .box-corpo {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+section .wrapper .box-corpo .caixa.lado p {
+    text-align: justify;
+}
+section .wrapper .box-corpo .caixa.lado {
+    margin: 0 auto;
+    flex-direction: row;
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+/*fim lutas parte text*/
 section .wrapper .corpo .caixa-0 img {
 	width: 43%;
 	float: left;
@@ -772,7 +906,16 @@ footer .wrapper .rodape {
 }
 
 
-#exercicio {
+#exercicio1 {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	text-align: center;
+	justify-content: space-around; 
+	margin: 20px;
+}
+
+#exercicio2 {
 	display: flex;
 	flex-direction: row;
 	align-self:  center;
@@ -824,14 +967,6 @@ footer .wrapper .rodape {
 }
 
 
-.titulo {
-
-	font-size: 70px;
-}
-
-.titulo2 {
-	font-size: 28px;
-}
 .texto {
 	list-style-type: disc; 
 	padding: 0px 0px 0px 200px;
@@ -839,7 +974,7 @@ footer .wrapper .rodape {
 
 /* Efeito Parallax ------*/
 
-.caixaexercicio, .caixapa, .caixafitoterapia, .caixa-servicos {
+.caixaexercicio, .caixapa, .caixafitoterapia {
 	position: relative;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -860,6 +995,20 @@ footer .wrapper .rodape {
 	background-image: url("../imagens/dica3.jpg");
 }
 
-.caixa-servicos {
-	background-image: url("../imagens/bannerservicos.jpg");
+#fitoterapia {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	justify-content: space-around; 
+	margin: 20px;
 }
+
+.ft {
+	list-style-type: disc; 
+	padding: 0px 50px 0px 50px;
+}
+
+.receita {
+	padding: 0px 0px 0px 35px;
+}
+
