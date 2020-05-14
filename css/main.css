@@ -705,6 +705,7 @@ p {
 }
 /* Fim do Home */
 /* Começo do sobre */
+
 .container {
 	padding-left: 50px;
 	padding-right: 50px;
@@ -722,11 +723,19 @@ p {
 	margin-top: 20px;
 }
 
-.fullWidthImage{
-	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+/* Efeito Parallax ---- */
+
+.bannersobre { 
+	background-image: url("../imagens/sobre.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
 }
+
 .conteudos {
 	display: flex;
 	flex-direction: row;
@@ -905,6 +914,8 @@ footer .wrapper .rodape {
 	width: 100%;
 }
 
+/* Dicas começa aqui */
+
 
 #exercicio1, #exercicio2 {
 	display: flex;
@@ -918,9 +929,6 @@ footer .wrapper .rodape {
 .barrafixa .mergulhonobanco .abdominal .pularcorda .halteres .pranchasolo {
 	border: 30px;
 }
-
-
-
 
 .bntspa {
 	text-align: center;
@@ -951,7 +959,6 @@ footer .wrapper .rodape {
   color: #47dd3b;
   box-shadow: inset 0 0 0 4px #47dd3b;
 }
-
 
 
 .dica-p {
@@ -987,6 +994,8 @@ footer .wrapper .rodape {
 	background-image: url("../imagens/dica3.jpg");
 }
 
+/* Pag Dicas ------- */
+
 #fitoterapia1, #fitoterapia2, #fitoterapia3, #fitoterapia4, #fitoterapia5 {
 	display: flex;
 	flex-direction: row;
@@ -1003,4 +1012,16 @@ footer .wrapper .rodape {
 .receita {
 	padding: 0px 0px 0px 35px;
 }
+
+.bannerfitoterapia {
+	background-image: url("../imagens/dica3.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
+}
+
 
