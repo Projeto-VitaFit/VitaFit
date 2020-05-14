@@ -1004,3 +1004,68 @@ footer .wrapper .rodape {
 	padding: 0px 0px 0px 35px;
 }
 
+/* Corona Virus ---*/
+/* Efeito Parallax ------*/
+
+.caixacorona1, .caixacorona2 {
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.caixacorona1 {
+	background-image: url("../imagens/bannercoronga.jpg");
+}
+
+.caixacorona2 {
+	background-image: url("../imagens/bannercoronga3.jpg")
+}
+
+.receita {
+	padding: 0px 0px 0px 35px;
+}
+
+.conteudo-corona {
+	padding-top: 90px;
+	padding-right: 200px;
+	padding-bottom: 150px;
+
+}
+
+.conteudo-paragrafo2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-left: 100px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.botao-corona {
+	float: right;
+	display: flex;
+	justify-content: center;
+	padding-right: 80px;
+	
+}
+
+.video-mascara {
+	padding-bottom: 80px;
+}
+
+.vitafit-corona {
+	float: right;
+}
+
+.corona-imagem {
+	float: left;
+}
+
+.texto-corona {
+	list-style-type: disc; 
+	padding: 0px 0px 0px 600px;
+}
+
