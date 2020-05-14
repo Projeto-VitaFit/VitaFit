@@ -862,7 +862,7 @@ footer .wrapper .rodape {
 }
 
 
-#exercicio1 {
+#exercicio1, #exercicio2 {
 	display: flex;
 	flex-direction: row;
 	align-self:  center;
@@ -870,15 +870,7 @@ footer .wrapper .rodape {
 	justify-content: space-around; 
 	margin: 20px;
 }
-
-#exercicio2 {
-	display: flex;
-	flex-direction: row;
-	align-self:  center;
-	text-align: center;
-	justify-content: space-around; 
-	margin: 20px;
-}
+ 
 .barrafixa .mergulhonobanco .abdominal .pularcorda .halteres .pranchasolo {
 	border: 30px;
 }
@@ -951,7 +943,7 @@ footer .wrapper .rodape {
 	background-image: url("../imagens/dica3.jpg");
 }
 
-#fitoterapia {
+#fitoterapia1, #fitoterapia2, #fitoterapia3, #fitoterapia4, #fitoterapia5 {
 	display: flex;
 	flex-direction: row;
 	align-self:  center;
