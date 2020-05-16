@@ -992,6 +992,8 @@ footer .wrapper .rodape {
 	background-image: url("../imagens/dica3.jpg");
 }
 
+
+
 /* Pag Dicas ------- */
 
 #fitoterapia1, #fitoterapia2, #fitoterapia3, #fitoterapia4, #fitoterapia5 {
@@ -1001,14 +1003,15 @@ footer .wrapper .rodape {
 	justify-content: space-around; 
 	margin: 20px;
 }
+ 
 
-.ft {
-	list-style-type: disc; 
+
+.bloquinho {
 	padding: 0px 50px 0px 50px;
 }
 
 .receita {
-	padding: 0px 0px 0px 35px;
+	list-style-type: disc; 
 }
 
 .bannerfitoterapia {
