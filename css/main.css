@@ -923,6 +923,7 @@ footer .wrapper .rodape {
 	justify-content: space-around; 
 	margin: 20px;
 }
+
  
 .barrafixa .mergulhonobanco .abdominal .pularcorda .halteres .pranchasolo {
 	border: 30px;
@@ -1003,11 +1004,43 @@ footer .wrapper .rodape {
 	justify-content: space-around; 
 	margin: 20px;
 }
- 
+#pagpa {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	justify-content: space-around; 
+	
+}
 
+#pagpad3 {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	justify-content: space-around; 
+}
+
+.bordatopo{
+	margin-left: 80px;
+	margin-right: 80px;
+	border-top: #47dd3b 3px solid;
+
+}
+
+
+.bloquinhopa1 {
+	padding: 0px 2px 0px 0px;
+
+}
+
+.bloquinhopa2 {
+	border-left: #47dd3b 3px solid;
+	padding: 0px 10px 0px 50px;
+	
+	
+}
 
 .bloquinho {
-	padding: 0px 50px 0px 50px;
+	padding: 0px 250px 0px 50px;
 }
 
 .receita {
