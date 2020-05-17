@@ -1090,4 +1090,6 @@ footer .wrapper .rodape {
 	padding: 0px 0px 0px 600px;
 }
 
-
+.ilustra {
+	display: flex;
+	justify-content: center;
