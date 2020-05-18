@@ -838,7 +838,7 @@ p {
 /* Fim do sobre */
  /*rodape começa aqui */
 
-footer .wrapper .rodape {
+ footer .wrapper .rodape {
     margin: 0 auto;
     display: flex;
     color: white;
@@ -855,9 +855,8 @@ footer .wrapper .rodape li {
     display: flex;
     flex-direction: row;
     float: left;
-	padding-left: 100px;
-    padding: 30px;
-    width: 50px;
+	margin: 20px;
+    padding: 10px;
 }
 footer .wrapper .rodape ul li a {
 	text-decoration: none;
@@ -1126,3 +1125,4 @@ footer .wrapper .rodape {
 .ilustra {
 	display: flex;
 	justify-content: center;
+}
