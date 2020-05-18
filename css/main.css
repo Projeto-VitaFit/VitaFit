@@ -1026,16 +1026,22 @@ footer .wrapper .rodape {
 
 }
 
+.bloquinhopa1v {
+	padding: 0px 2px 0px 85px;
+}
+
+.bloquinhopa2v {
+	border-left: #47dd3b 3px solid;
+	padding: 0px 50px 0px 50px;	
+}
 
 .bloquinhopa1 {
-	padding: 0px 2px 0px 0px;
-
+	padding: 0px 2px 0px 10px;
 }
 
 .bloquinhopa2 {
 	border-left: #47dd3b 3px solid;
 	padding: 0px 10px 0px 50px;
-	
 	
 }
 
