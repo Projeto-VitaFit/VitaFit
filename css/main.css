@@ -464,19 +464,19 @@ p {
 }
 
 .nomes-servico  {
-	padding-top: 20px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-
-.paragrafo-servicos {
-	padding-top: 10px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
+}
+
+
+.paragrafo-servicos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	padding-left: 20px;
 }
 
 .imagens-suaforma {
@@ -490,6 +490,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	padding-bottom: 20px;
 }
 
 .dieta  {
@@ -570,7 +571,6 @@ p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding-bottom: 30px;
 }
 
 .efeito2 {
@@ -603,6 +603,7 @@ p {
 
 .btns2 {
 	text-align: center;
+	padding-right: 50px;
 }
 
 .efeito {
@@ -672,6 +673,7 @@ p {
 	padding-top: 20px;
 	color: #fff;
 	font-size: 50px;
+	padding-right: 60px;
 	
 }
 
@@ -686,7 +688,7 @@ p {
 
 .h1-cadastro {
 	margin-top: 100px;
-	margin-right: 450px;
+	margin-right: 500px;
 	font-size: 90px;
 	color: #ffffff;
 	width: 100%;
