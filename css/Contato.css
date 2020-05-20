@@ -150,27 +150,33 @@ h4{
     flex-direction: column;
     padding:10px;
     margin-bottom: 5px;
-
+    border-radius: 15px;
+    border: 1px solid #333;
 }
 
 .box-50 {
     width: 40%;
+    height: 20px;
     margin: 0 auto;
     padding: 10px;
     margin-bottom: 5px;
     display: flex;
     position: relative;
     right: 20%;
-    border-radius: 2%;
+    border-radius: 15px;
+    border: 1px solid #333;
 } 
 
 .field {
     width: 80%;
+    height: 20px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     padding: 10px;
     margin-bottom: 5px;
+    border-radius: 15px;
+    border: 1px solid #333;
 }
 .text {
     display: flex;
@@ -181,12 +187,14 @@ h4{
 
 .buttom {
     float: right;
+    text-align: center;
+    padding: 13px;
     display: flex;
     position: relative;
     right: 9%;
     width: 5%;
-    height: 7%;
-    text-align: center;
+    height: 40px;
+    border-radius: 5px;
 }
 
 footer .wrapper .rodape {
