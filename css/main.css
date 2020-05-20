@@ -203,6 +203,8 @@ section .wrapper .corpo .caixa-nutri {
 }
 section .wrapper .corpo .caixa-0 {
 	margin-top: 5%;
+    width: 90%;
+    margin: 0 auto;
 }
 /*inicio parallax serviços*/
 .bannerservicos {
@@ -353,12 +355,26 @@ section .wrapper .box-corpo .caixa.lado {
 	border-radius: 15px;
 	border: 1px solid #333;
 }
+/* edit personal */
+.box-personal {
+	width: 90%;
+	margin: 0 auto;
+}
+.box-personal p {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.box-personal p strong {
+	color: #47dd3b;
+}
 /*fim lutas parte text*/
 section .wrapper .corpo .caixa-0 img {
 	width: 43%;
 	float: left;
 	height: 300px;
 	margin: 1%;
+	border-radius: 15px;
 }
 section .wrapper .corpo .caixa-0 p {
 	width: 55%;
@@ -369,14 +385,18 @@ section .wrapper .corpo .caixa-0 p {
 }
 section .wrapper .corpo .caixa-1 {
 	margin-top: 5%;
+    width: 90%;
+    margin: 0 auto;
 }
 section .wrapper .corpo .caixa-1 img {
 	width: 43%;
     float: right;
     height: 300px;
-	margin: 5%;
-	margin-bottom: 10px;
+	margin-top: 9%;
+	border: 1px solid lightcyan;
+	border-bottom: 0px;
     display: table;
+    border-radius: 15px 15px 0 0;
 }
 section .wrapper .corpo .caixa-1 p {
 	width: 55%;
