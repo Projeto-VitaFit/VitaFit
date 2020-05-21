@@ -339,7 +339,8 @@ section .wrapper .box-corpo {
     flex-wrap: wrap;
 }
 section .wrapper .box-corpo .caixa.lado p {
-    text-align: justify;
+	text-align: justify;
+	word-break: break-word;
 }
 section .wrapper .box-corpo .caixa.lado {
     margin: 0 auto;
