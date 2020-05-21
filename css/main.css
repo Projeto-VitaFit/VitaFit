@@ -857,7 +857,7 @@ p {
 footer .wrapper .rodape ul {
     position: absolute;
     margin: 0 auto;
-}
+ }
 footer .wrapper .rodape li {
     display: flex;
     flex-direction: row;
@@ -870,7 +870,7 @@ footer .wrapper .rodape ul li a {
 	color: white;
     padding: 3%;
     position: relative;
-    left: 50px;
+    left: 30px;
 }
 footer .wrapper .rodape {
     height: 75px;
@@ -920,6 +920,9 @@ footer .wrapper .rodape {
 
 /* Dicas começa aqui */
 
+.tamanho-dicas {
+	font-size: 30px;
+}
 
 #exercicio1, #exercicio2 {
 	display: flex;
@@ -976,9 +979,24 @@ footer .wrapper .rodape {
 	padding: 0px 0px 0px 200px;
 }
 
+/* teste cards ----------*/
+
+#cards {
+	margin: 60px;
+}
+
+.card-title {
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.stats{
+	text-align: center;
+}
 /* Efeito Parallax ------*/
 
-.caixaexercicio, .caixapa, .caixafitoterapia {
+.caixaexercicio, .caixapa {
 	position: relative;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -995,8 +1013,16 @@ footer .wrapper .rodape {
 	background-image: url("../imagens/dica2.jpg");
 }
 
-.caixafitoterapia {
+
+.bannerfitoterapia {
 	background-image: url("../imagens/dica3.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
 }
 
 
@@ -1059,16 +1085,6 @@ footer .wrapper .rodape {
 	list-style-type: disc; 
 }
 
-.bannerfitoterapia {
-	background-image: url("../imagens/dica3.jpg");
-	position: relative;
-	background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 380px;
-    padding-top: 380px;
-}
 
 /* Corona Virus ---*/
 /* Efeito Parallax ------*/
