@@ -965,7 +965,7 @@ footer .wrapper .rodape {
 	padding: 20px;
 	margin: 25px;
 	font-size: 20px;
-	line-height: 14px;
+	line-height: 1px;
 	border-radius: 30px;
 	position: relative;
 	box-sizing: border-box;
@@ -973,13 +973,13 @@ footer .wrapper .rodape {
 }
 
 
-.efeito-pa:hover  {
+.efeitopa-1:hover  {
   background: #47dd3b;
-  color:#ffffff; 
+  color: #ffffff; 
  }
 
-.efeito-pa {
-  background: rgba(0,0,0,0);
+.efeitopa-1 {
+  background: #ffffff;
   color: #47dd3b;
   box-shadow: inset 0 0 0 4px #47dd3b;
 }
@@ -1007,9 +1007,15 @@ footer .wrapper .rodape {
 
 }
 
-.stats{
+.card-text {
 	text-align: center;
 }
+
+.stats {
+	text-align: center;
+}
+
+
 /* Efeito Parallax ------*/
 
 .caixaexercicio, .caixapa {
