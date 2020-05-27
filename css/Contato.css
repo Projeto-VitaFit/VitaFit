@@ -109,9 +109,15 @@ header .wrapper .menu-item:hover a {
     color: #ff4c05;
     background-color: #fff;
 }
-.wrapper .imge {
-    height: auto;
-    width: 100%;
+.bannercontato {
+    background-image: url(../imagens/bannercontato.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 380px;
+    padding-top: 380px;
 }
 body {
      font-family: "verdana";
