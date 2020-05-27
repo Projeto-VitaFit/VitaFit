@@ -206,6 +206,7 @@ section .wrapper .corpo .caixa-0 {
     width: 90%;
     margin: 0 auto;
 }
+
 /*inicio parallax serviços*/
 .bannerservicos {
 	background-image: url("../imagens/bannerservicos.jpg");
@@ -726,6 +727,17 @@ p {
 	position: absolute;
 
 }
+
+.space-list{
+	padding: 0px 0px 22px;
+}
+
+.conteudo-paragrafo-lista {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-left: 70px;
+}
 /* Fim do Home */
 /* Começo do sobre */
 
@@ -940,19 +952,54 @@ footer .wrapper .rodape {
 	font-size: 30px;
 }
 
-#exercicio1, #exercicio2 {
+/* ---- Espaçamento dos Exercícios Começa Aqui ---- */
+
+#exercicio1 {
 	display: flex;
 	flex-direction: row;
 	align-self:  center;
 	text-align: center;
-	justify-content: space-around; 
-	margin: 20px;
+	justify-content: space-around;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
- 
-.barrafixa .mergulhonobanco .abdominal .pularcorda .halteres .pranchasolo {
-	border: 30px;
+
+ .barrafixa {
+ 	padding: 0px 0px 0px 73px;
+ }
+
+.mergulhonobanco {
+	padding: 0px 0px 0px 73px;
 }
+
+.abdominal{
+	padding: 0px 0px 50px 73px;
+} 
+
+#exercicio2 {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	text-align: center;
+	justify-content: space-around;
+	
+	margin-right: 60px;
+}
+
+.pularcorda {
+	padding: 0px 0px 0px 70px;
+}
+
+.halteres {
+	padding: 0px 0px 0px 73px;
+}
+
+.pranchasolo {
+	padding: 0px 0px 50px 73px;
+}
+
+/* ---- Espaçamento dos Exercícios Termina Aqui ---- */
 
 .bntspa {
 	text-align: center;
@@ -988,7 +1035,6 @@ footer .wrapper .rodape {
 .dica-p {
 	padding: 0px 0px 0px 80px; 
 }
-
 
 .texto {
 	list-style-type: disc; 
