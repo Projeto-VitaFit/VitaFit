@@ -1,7 +1,4 @@
 .botao01 {
-	
-	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffa812), color-stop(1, #62bd35) );
-	background:-moz-linear-gradient( center top, #ffa812 5%, #62bd35 100% ); */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000', endColorstr='#000');
 	background-color:#47dd3b;
 	-webkit-border-top-left-radius:8px;
@@ -33,9 +30,6 @@
 	margin-right: 100px;
 }
 .botao01:hover {
-	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #62bd35), color-stop(1, #ffa812) );
-	background:-moz-linear-gradient( center top, #62bd35 5%, #ffa812 100% ); */
-	
 	background-color:#31D324;
 }.botao01:active {
 	position:relative;
@@ -60,22 +54,18 @@ header {
     width: 100%;
 }
 header .wrapper {
-	
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .bloco-wrapper {
 	margin-left: 70px;
 }
-
 header .wrapper .menu .logo1 .logo {
     margin: 0px;
     padding: 0px;
     width: 100%;
-	
 }
 header .wrapper .menu .logo {
     height: auto;
@@ -104,7 +94,6 @@ header .wrapper .menu-item {
     float: left;
     position: relative;
 }
-
 header .wrapper .menu-item a {
     text-decoration: none;
     font-weight: medium;
@@ -124,20 +113,17 @@ header .wrapper .menu-item:hover a {
     height: auto;
     width: 100%;
 }
-
-body{
+body {
      font-family: "verdana";
-}
-          
-h1{
+}     
+h1 {
     margin: 0 auto;
     text-align: center;
     color: orange;
     margin-top: 45px;
     margin-bottom: 15px;
 }
-
-h4{
+h4 {
     color: lawngreen; 
     text-align: center;
     margin: 0 auto;
@@ -146,7 +132,6 @@ form {
     width: 80%;
     margin: 0 auto;
 }
-
 .caixa-text { 
 
     width: 80% ;
@@ -159,7 +144,6 @@ form {
     border-radius: 15px;
     border: 1px solid #333;
 }
-
 .box-50 {
     width: 40%;
     height: 20px;
@@ -172,7 +156,6 @@ form {
     border-radius: 15px;
     border: 1px solid #333;
 } 
-
 .field {
     width: 80%;
     height: 20px;
@@ -191,7 +174,6 @@ form {
     word-break: break-all;
     left: 10%;
 }
-
 .buttom {
     float: right;
     text-align: center;
@@ -202,7 +184,6 @@ form {
     height: 40px;
     border-radius: 10px;
 }
-
 footer .wrapper .rodape {
     margin: 0 auto;
     display: flex;
@@ -244,7 +225,6 @@ footer .wrapper .rodape {
     bottom: 0%;
     z-index: 1;
 }
-
 .paragrafo-rodape {
 	padding-top: 5px;
 	text-align: center;
@@ -257,17 +237,13 @@ footer .wrapper .rodape {
 	padding-left: 1100px;
 	position: relative;
 	padding-top: 18px;
-	
 }
-
 .face {
 	padding-right: 30px;
 }
 .insta {
 	padding-right: 30px;
-
 }
-
 .twitter {
 	padding-right: 30px;
 }
