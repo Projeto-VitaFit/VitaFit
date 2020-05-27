@@ -319,7 +319,7 @@ section .wrapper .corpo .caixa-0 {
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 250px;
-    margin: 170% 0 0%;
+    margin: 180% 0 0%;
     padding-top: 250px;
 }
 .box-content {
@@ -349,7 +349,7 @@ section .wrapper .box-corpo .caixa.lado {
     float: left;
     width: 33%;
 	padding: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 2%;
 }
 .img-box {
 	width: 100%;
