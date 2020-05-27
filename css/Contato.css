@@ -133,11 +133,17 @@ h1{
     margin: 0 auto;
     text-align: center;
     color: orange;
+    margin-top: 45px;
+    margin-bottom: 15px;
 }
 
 h4{
     color: lawngreen; 
     text-align: center;
+    margin: 0 auto;
+}
+form {
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -181,8 +187,9 @@ h4{
 .text {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     word-break: break-all;
+    left: 10%;
 }
 
 .buttom {
@@ -192,9 +199,8 @@ h4{
     display: flex;
     position: relative;
     right: 9%;
-    width: 5%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 footer .wrapper .rodape {
@@ -204,6 +210,7 @@ footer .wrapper .rodape {
     background-color: #47dd3b;
     bottom: 0%;
     width: 100%;
+    margin-top: 85px;
     position: initial;
 }
 footer .wrapper .rodape ul {
