@@ -222,6 +222,7 @@ footer .wrapper .rodape ul li a {
     padding: 3%;
     position: relative;
     left: 50px;
+    z-index: 1;
 }
 footer .wrapper .rodape {
     height: 75px;
