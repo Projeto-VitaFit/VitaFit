@@ -1146,11 +1146,13 @@ footer .wrapper .rodape {
 }
 
 .bloquinho {
-	padding: 0px 250px 0px 50px;
+	padding: 0px 50px 0px 50px;
+	margin: 20px;
 }
 
 .receita {
-	list-style-type: disc; 
+	list-style-type: disc;
+	padding: 0px 0px 0px 35px; 
 }
 
 
@@ -1174,9 +1176,6 @@ footer .wrapper .rodape {
 	background-image: url("../imagens/bannercoronga3.jpg")
 }
 
-.receita {
-	padding: 0px 0px 0px 35px;
-}
 
 .conteudo-corona {
 	padding-top: 90px;
