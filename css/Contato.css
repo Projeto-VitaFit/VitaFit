@@ -109,6 +109,8 @@ header .wrapper .menu-item:hover a {
     color: #ff4c05;
     background-color: #fff;
 }
+
+/*aqui estou adicionando o parallax ao banner*/
 .bannercontato {
     background-image: url(../imagens/bannercontato.jpg);
     position: relative;
@@ -134,6 +136,7 @@ h4 {
     text-align: center;
     margin: 0 auto;
 }
+/*adicionei ao elemento form um width 80% para poder centralizar com o margin: 0 auto;*/
 form {
     width: 80%;
     margin: 0 auto;
@@ -180,6 +183,7 @@ form {
     word-break: break-all;
     left: 10%;
 }
+/*removi o width fazendo com que as letras do botao ficassem no meio e ele tromasse a medida de largura altomaticamente*/
 .buttom {
     float: right;
     text-align: center;
