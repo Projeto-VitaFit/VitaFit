@@ -288,6 +288,26 @@ section .wrapper .corpo .caixa-0 {
     padding-bottom: 380px;
     padding-top: 380px;
 }
+.paralax-pilates {
+	background-image: url("../submenu/img/parallax-pilates.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 380px;
+	padding-bottom: 380px;
+}
+.paralax-yoga {
+	background-image: url("../submenu/img/parallax-yoga.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 380px;
+	padding-bottom: 380px;
+}
 .box-1 {
 	background-image: url("../imagens/bannerartesmarciais.jpg");
 	position: relative;
@@ -388,7 +408,8 @@ section .wrapper .corpo .caixa-0 p {
 section .wrapper .corpo .caixa-1 {
 	margin-top: 5%;
     width: 90%;
-    margin: 0 auto;
+	margin: 0 auto;
+	margin-bottom: 122px;
 }
 section .wrapper .corpo .caixa-1 img {
 	width: 43%;
