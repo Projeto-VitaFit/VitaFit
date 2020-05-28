@@ -934,20 +934,93 @@ footer .wrapper .rodape {
 	text-align: center;
 	justify-content: space-around;
 }
-.barrafixa {padding-right: 30px;}
-.mergulhonobanco {padding-left: 30px;}
-.abdominal {padding-left: 30px;}
+.barrafixa {
+	padding: 0px 0px 0px 73px;
+}
+
+.mergulhonobanco {
+   padding: 0px 0px 0px 73px;
+}
+
+.abdominal{
+   padding: 0px 0px 50px 73px;
+} 
+
 #exercicio2 {
 	display: flex;
 	flex-direction: row;
 	align-self:  center;
 	text-align: center;
 	justify-content: space-around;
+	margin-left: 70px;
+	margin-right: 70px;
 }
-.pularcorda {padding-right: 30px;}
-.halteres {padding-right: 30px;}
-.pranchasolo {padding-right: 30px;}
+ .barrafixa {
+ 	padding: 0px 0px 0px 73px;
+ }
+.mergulhonobanco {
+	padding: 0px 0px 0px 73px;
+}
+.abdominal{
+	padding: 0px 0px 50px 73px;
+} 
+.face {
+	padding-right: 30px;
+}
+.insta {
+	padding-right: 30px;
+}
+.twitter {
+	padding-right: 30px;
+}
+.imge {
+	height: auto;
+	width: 100%;
+}
+/* Dicas começa aqui */
+.tamanho-dicas {
+	font-size: 30px;
+}
+/* ---- Espaçamento dos Exercícios Começa Aqui ---- */
+#exercicio1 {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	text-align: center;
+	justify-content: space-around;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+ .barrafixa {
+ 	padding: 0px 0px 0px 73px;
+ }
 
+.mergulhonobanco {
+	padding: 0px 0px 0px 73px;
+}
+
+.abdominal{
+	padding: 0px 0px 50px 73px;
+} 
+
+#exercicio2 {
+	display: flex;
+	flex-direction: row;
+	align-self:  center;
+	text-align: center;
+	justify-content: space-around;
+
+	margin-right: 60px;
+}
+.pularcorda {
+	padding: 0px 0px 0px 0px;
+}
+.halteres {
+	padding: 0px 0px 0px 73px;
+}
+.pranchasolo {
+	padding: 0px 0px 50px 73px;
+}
 .caixa-servicos-home {
 	width: 100%;
 	float: left;
