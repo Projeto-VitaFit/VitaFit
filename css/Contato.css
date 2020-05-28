@@ -196,7 +196,7 @@ form {
     background: #47dd3b;
     color: #fff;
     font-weight: bold;
-    border: firebrick;
+    border: none;
 }
 .buttom:hover {
     background: #31D324;
