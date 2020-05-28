@@ -948,7 +948,7 @@ footer .wrapper .rodape {
 	padding-left: 80%;
 	position: relative;
 	padding-top: 18px;
-	
+	right: 0%;
 }
 
 .face {
@@ -982,43 +982,29 @@ footer .wrapper .rodape {
 	align-self:  center;
 	text-align: center;
 	justify-content: space-around;
-	margin-left: 70px;
-	margin-right: 70px;
 }
-
-
- .barrafixa {
- 	padding: 0px 0px 0px 73px;
- }
-
-.mergulhonobanco {
-	padding: 0px 0px 0px 73px;
-}
-
-.abdominal{
-	padding: 0px 0px 50px 73px;
-} 
-
 #exercicio2 {
 	display: flex;
 	flex-direction: row;
 	align-self:  center;
 	text-align: center;
 	justify-content: space-around;
-	
-	margin-right: 60px;
 }
-
-.pularcorda {
-	padding: 0px 0px 0px 70px;
+.caixa-servicos-home {
+	width: 100%;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
 }
-
-.halteres {
-	padding: 0px 0px 0px 73px;
+.box-servicos-home {
+	width: 32%;
+    flex-direction: row;
+	float: left;
+	margin-left: 1%;
 }
-
-.pranchasolo {
-	padding: 0px 0px 50px 73px;
+.box-servicos-home img {
+	width: 100%;
+    height: auto;
 }
 
 /* ---- Espaçamento dos Exercícios Termina Aqui ---- */
