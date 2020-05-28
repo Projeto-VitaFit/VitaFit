@@ -896,10 +896,10 @@ footer .wrapper .rodape {
 .social {
 	display: flex;
 	flex-direction: row;
-	padding-left: 1100px;
+	padding-left: 80%;
 	position: relative;
 	padding-top: 18px;
-	
+	right: 0%;
 }
 
 .face {
@@ -933,43 +933,32 @@ footer .wrapper .rodape {
 	align-self:  center;
 	text-align: center;
 	justify-content: space-around;
-	margin-left: 70px;
-	margin-right: 70px;
 }
-
-
- .barrafixa {
- 	padding: 0px 0px 0px 73px;
- }
-
-.mergulhonobanco {
-	padding: 0px 0px 0px 73px;
-}
-
-.abdominal{
-	padding: 0px 0px 50px 73px;
-} 
-
 #exercicio2 {
 	display: flex;
 	flex-direction: row;
 	align-self:  center;
 	text-align: center;
 	justify-content: space-around;
-	
-	margin-right: 60px;
 }
-
-.pularcorda {
-	padding: 0px 0px 0px 70px;
+.caixa-servicos-home {
+	width: 100%;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
 }
-
-.halteres {
-	padding: 0px 0px 0px 73px;
+.box-servicos-home {
+	width: 32%;
+    flex-direction: row;
+	float: left;
+	margin-left: 1%;
 }
-
-.pranchasolo {
-	padding: 0px 0px 50px 73px;
+.box-servicos-home img {
+	width: 100%;
+    height: auto;
+}
+.imagens-suaforma img {
+	width: 32%;
 }
 
 /* ---- Espaçamento dos Exercícios Termina Aqui ---- */
@@ -1194,4 +1183,91 @@ footer .wrapper .rodape {
 .ilustra {
 	display: flex;
 	justify-content: center;
+}
+
+/* novo footer */
+
+#myFooter{
+    padding-top:32px;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter a:hover{
+    color: #ff4c05;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #ff4c05;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #ff4c05; 
+}
+
+#myFooter .fa-instagram:hover{
+    color:#ff4c05;
+}
+
+#myFooter .fa-instagram:focus{
+    color:#ff4c05;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #ff4c05;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#ff4c05;
 }
