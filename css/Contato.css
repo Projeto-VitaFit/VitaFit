@@ -118,7 +118,7 @@ header .wrapper .menu-item:hover a {
     padding-top: 380px;
 }
 body {
-     font-family: "verdana";
+    font-family: "verdana";
 }     
 h1 {
     margin: 0 auto;
@@ -126,11 +126,13 @@ h1 {
     color: #ff4c05;
     margin-top: 45px;
     margin-bottom: 15px;
+    font-size: 50px;
 }
 h3 {
     color: #47dd3b; 
     text-align: center;
     margin: 0 auto;
+    /* font-size: initial; */
 }
 /*adicionei ao elemento form um width 80% para poder centralizar com o margin: 0 auto;*/
 form {
@@ -139,7 +141,7 @@ form {
 }
 .caixa-text { 
     width: 80% ;
-    height: 100px ;
+    height: 150px ;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -147,6 +149,8 @@ form {
     margin-bottom: 5px;
     border-radius: 15px;
     border: 1px solid #333;
+    vertical-align: top;
+    resize: vertical;
 }
 .box-50 {
     width: 38%;
