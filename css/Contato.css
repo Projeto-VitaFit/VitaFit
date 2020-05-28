@@ -39,10 +39,6 @@
     padding: 0;
     margin: 0;
 }
-.wrapper .imge {
-    height: auto;
-    width: 100%;
-}
 .wrapper {
     max-width: 1366px;
     margin: 0 auto;
@@ -127,12 +123,12 @@ body {
 h1 {
     margin: 0 auto;
     text-align: center;
-    color: orange;
+    color: #ff4c05;
     margin-top: 45px;
     margin-bottom: 15px;
 }
-h4 {
-    color: lawngreen; 
+h3 {
+    color: #47dd3b; 
     text-align: center;
     margin: 0 auto;
 }
@@ -142,7 +138,6 @@ form {
     margin: 0 auto;
 }
 .caixa-text { 
-
     width: 80% ;
     height: 100px ;
     display: flex;
@@ -154,17 +149,19 @@ form {
     border: 1px solid #333;
 }
 .box-50 {
-    width: 40%;
+    width: 38%;
     height: 20px;
     margin: 0 auto;
     padding: 10px;
-    margin-bottom: 5px;
-    display: flex;
+    margin-bottom: 25px;
     position: relative;
-    right: 20%;
+    left: 9%;
     border-radius: 15px;
     border: 1px solid #333;
-} 
+}
+.box-50.afasta {
+    margin-right: 15px;
+}
 .field {
     width: 80%;
     height: 20px;
@@ -172,7 +169,7 @@ form {
     flex-direction: column;
     margin: 0 auto;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     border-radius: 15px;
     border: 1px solid #333;
 }
@@ -193,6 +190,7 @@ form {
     right: 9%;
     height: 40px;
     border-radius: 10px;
+  
 }
 footer .wrapper .rodape {
     margin: 0 auto;
