@@ -201,53 +201,89 @@ form {
 .buttom:hover {
     background: #31D324;
 }
-footer .wrapper .rodape {
-    margin: 0 auto;
-    display: flex;
-    color: white;
-    background-color: #47dd3b;
-    bottom: 0%;
-    width: 100%;
-    margin-top: 85px;
-    position: initial;
+#myFooter{
+    padding-top:65px;
 }
-footer .wrapper .rodape ul {
-    position: absolute;
-    margin: 0 auto;
-}
-footer .wrapper .rodape li {
-    display: flex;
-    flex-direction: row;
-    float: left;
-	padding-left: 100px;
-    padding: 30px;
-    width: 50px;
-}
-footer .wrapper .rodape ul li a {
-	text-decoration: none;
-	color: white;
-    padding: 3%;
-    position: relative;
-    left: 50px;
-    z-index: 1;
-}
-footer .wrapper .rodape {
-    height: 75px;
-    bottom: 0%;
-}
-.wrapper .rodape p {
-    margin: 0 auto;
+
+#myFooter .container{
     text-align: center;
-    float: left;
-    display: contents;
-    bottom: 0%;
-    z-index: 1;
 }
-.paragrafo-rodape {
-	padding-top: 5px;
-	text-align: center;
-	padding-top: 10px;
-	font-size: 12px;
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter a:hover{
+    color: #ff4c05;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #ff4c05;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #ff4c05; 
+}
+
+#myFooter .fa-instagram:hover{
+    color:#ff4c05;
+}
+
+#myFooter .fa-instagram:focus{
+    color:#ff4c05;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #ff4c05;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#ff4c05;
 }
 .social {
 	display: flex;
