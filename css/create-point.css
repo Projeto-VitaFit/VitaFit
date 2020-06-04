@@ -1,0 +1,166 @@
+#page-create-point {
+    width: 90%;
+    max-width: 1100px;
+    /* alinhamento de caixa (pelo lado de fora da caixa) */
+    margin: 0 auto;
+}
+
+#page-create-point header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-create-point header a {
+    font-weight: 500;
+    color: #121212;
+    display: flex;
+    align-items: center;
+}
+
+#page-create-point a span {
+    margin-right: 16px;
+    background-image: url(../imagens/arrow-left.svg);
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+form {
+    background-color: white;
+    /*preenchimento interno*/
+    padding: 64px;
+    /*lateral arredondada */
+    border-radius: 8px;
+    margin-left: 170px;
+    /*maxima largura */
+    max-width: 730px;
+    box-sizing: border-box;
+   
+}
+
+form h1 {
+    font-size: 36px;
+}
+
+form .segundoh1 {
+    padding-top: 35px;
+    font-size: 36px;
+}
+form fieldset {
+    margin-top: 64px;
+    border: 0;
+}
+
+form legend {
+    margin-bottom: 40px;
+}
+
+form legend h2 {
+    font-size: 24px;
+}
+
+form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    
+}
+
+form .field-group {
+    display: flex;
+
+}
+
+form input,
+form select {
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    /* vai tirar a linha preta 
+    outline: none;*/
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+.bt {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt .efeito2 {
+    width: 150px;
+    transition: 400ms;
+}
+
+.bt .efeito2:hover {
+    color: #ffffff;
+    background-color: #ff4c05;
+}
+
+.items-grid {
+    /*grid*/
+    display: grid;
+    /*colunas no grid, fr= fração, ele se ajusta deixando os itens em 3 colunas*/
+    grid-template-columns: 1fr 1fr 1fr;
+    /* espaçamento para o grid entre elementos chamado gap*/
+    gap: 16px;
+}
+
+.items-grid li {
+    background-color: #f5f5f5;
+    /* tira a bolinha */
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    height: 180px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    /*alinha os itens ao centro */
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-grid li span {
+    color: #ffffff;
+    /*para ele tenha um tamanho que preencha sozinho*/
+    flex: 1;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+
+}
+
+.items-grid li.selected {
+    background-color: #ffffff;
+    border: 3px solid #ff4c05;
+}
+
+.items-grid li img,
+.items-grid li span {
+/*não deixa o evento de clique acontecer */
+pointer-events: none;
+}
