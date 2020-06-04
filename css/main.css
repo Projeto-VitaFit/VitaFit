@@ -41,7 +41,10 @@ Branco: #ffffff */
 	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #62bd35), color-stop(1, #ffa812) );
 	background:-moz-linear-gradient( center top, #62bd35 5%, #ffa812 100% ); */
 	
-	background-color:#31D324;
+	background-color: #3fca35;
+	color: #ffffff;
+	text-decoration: none;
+	
 }.botao01:active {
 	position:relative;
 	top:1px;
@@ -57,7 +60,7 @@ Branco: #ffffff */
 
 body {
     color: black;
-   	font-family: 'roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
     max-height: 960px;
     margin: 0 auto;
 }

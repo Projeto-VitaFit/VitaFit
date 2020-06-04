@@ -1,3 +1,5 @@
+/* ultima parte do cadastro */
+
 #page-create-point {
     width: 90%;
     max-width: 1100px;
@@ -42,6 +44,7 @@ form {
 
 form h1 {
     font-size: 36px;
+    text-align: center;
 }
 
 form .segundoh1 {
@@ -164,3 +167,413 @@ form .field-group .field + .field {
 /*não deixa o evento de clique acontecer */
 pointer-events: none;
 }
+
+/* cadastro usuario aluno */
+.items-grid2 {
+    /*grid*/
+    display: grid;
+    /*colunas no grid, fr= fração, ele se ajusta deixando os itens em 3 colunas*/
+    grid-template-columns: 1fr 1fr;
+    /* espaçamento para o grid entre elementos chamado gap*/
+    gap: 16px;
+}
+
+.items-grid2 li {
+    background-color: #f5f5f5;
+    /* tira a bolinha */
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    height: 180px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    /*alinha os itens ao centro */
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-grid2 li span {
+    color: #ffffff;
+    /*para ele tenha um tamanho que preencha sozinho*/
+    flex: 1;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+
+}
+
+.items-grid2 li.selected {
+    background-color: #ffffff;
+    border: 3px solid #ff4c05;
+}
+
+.items-grid2 li img,
+.items-grid2 li span {
+/*não deixa o evento de clique acontecer */
+pointer-events: none;
+}
+
+
+/* cadastro final aluno */
+.items-grid2 {
+    /*grid*/
+    display: grid;
+    /*colunas no grid, fr= fração, ele se ajusta deixando os itens em 3 colunas*/
+    grid-template-columns: 1fr 1fr 1fr;
+    /* espaçamento para o grid entre elementos chamado gap*/
+    gap: 16px;
+}
+
+.items-grid2 li {
+    background-color: #f5f5f5;
+    /* tira a bolinha */
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    height: 180px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    /*alinha os itens ao centro */
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-grid2 li span {
+    color: #ffffff;
+    /*para ele tenha um tamanho que preencha sozinho*/
+    flex: 1;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+
+}
+
+.items-grid2 li.selected {
+    background-color: #ffffff;
+    border: 3px solid #ff4c05;
+}
+
+.items-grid2 li img,
+.items-grid2 li span {
+/*não deixa o evento de clique acontecer */
+pointer-events: none;
+}
+
+/* cadastro usuario aluno */
+.items-grid2 {
+    /*grid*/
+    display: grid;
+    /*colunas no grid, fr= fração, ele se ajusta deixando os itens em 3 colunas*/
+    grid-template-columns: 1fr 1fr;
+    /* espaçamento para o grid entre elementos chamado gap*/
+    gap: 16px;
+}
+
+.items-grid2 li {
+    background-color: #f5f5f5;
+    /* tira a bolinha */
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    height: 180px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    /*alinha os itens ao centro */
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-grid2 li span {
+    color: #ffffff;
+    /*para ele tenha um tamanho que preencha sozinho*/
+    flex: 1;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+
+}
+
+.items-grid2 li.selected {
+    background-color: #ffffff;
+    border: 3px solid #ff4c05;
+}
+
+.items-grid2 li img,
+.items-grid2 li span {
+/*não deixa o evento de clique acontecer */
+pointer-events: none;
+}
+
+
+/*cadastro sexo do aluno */
+
+
+  .progress-bar{
+    /* vamos declarar nossa
+      variável com o nome de
+      "progress". Ela terá seu
+      valor entre 0 e 100.
+      */
+    margin-left: 360px;
+    margin-top: 100px;
+    --progress: 20;
+    height: 10px;
+    width: 30%;
+    background-color: #ff4c053b;
+    display: flex;
+    border-radius: 30px;
+    border: none;
+    
+  }
+  
+  .progress-bar::before{
+    content: "";
+    /* aqui estamos chamando
+      nossa variável. Como a
+      largura do pseudo-elemento
+      estará entre 0% e 100%, temos
+      que converter o valor da nossa
+      variável em porcentagem. Para
+      isso, basta multiplicar por 1%.
+      */
+    border-radius: 30px;
+    width: calc(var(--progress) * 1%);
+    background-color: #ff4c05;
+  }
+
+  h4 {
+      margin-top: 30px;
+      text-align: center;
+      font-weight: bold;
+  }
+
+  /* parte do cadastro objetivo */
+
+  .progress-bar2{
+    /* vamos declarar nossa
+      variável com o nome de
+      "progress". Ela terá seu
+      valor entre 0 e 100.
+      */
+    margin-left: 360px;
+    margin-top: 100px;
+    --progress: 40;
+    height: 10px;
+    width: 30%;
+    background-color: #ff4c053b;
+    display: flex;
+    border-radius: 30px;
+    border: none;
+    
+  }
+  
+  .progress-bar2::before{
+    content: "";
+    /* aqui estamos chamando
+      nossa variável. Como a
+      largura do pseudo-elemento
+      estará entre 0% e 100%, temos
+      que converter o valor da nossa
+      variável em porcentagem. Para
+      isso, basta multiplicar por 1%.
+      */
+    border-radius: 30px;
+    width: calc(var(--progress) * 1%);
+    background-color: #ff4c05;
+  }
+
+  .items-grid3 {
+    /*grid*/
+    display: grid;
+    /*colunas no grid, fr= fração, ele se ajusta deixando os itens em 3 colunas*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* espaçamento para o grid entre elementos chamado gap*/
+    gap: 16px;
+}
+
+.items-grid3 li {
+    background-color: #f5f5f5;
+    /* tira a bolinha */
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    height: 100px;
+    padding: 18px 28px;
+    display: flex;
+    flex-direction: row;
+    /*alinha os itens ao centro */
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-grid3 span {
+    font-weight: bold;
+    margin-left: 150px;
+    color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: var(--title-color);
+
+}
+
+.items-grid3 li p {
+    color: #ffffff;
+    padding-top: 60px;
+    padding-right: 80px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    color: var(--title-color);
+
+}
+
+.items-grid3 li.selected {
+    background-color: #ffffff;
+    border: 3px solid #ff4c05;
+}
+
+.items-grid3 li img,
+.items-grid3 li span {
+/*não deixa o evento de clique acontecer */
+pointer-events: none;
+}
+
+/* parte do cadastro condicionamento */
+
+.progress-bar3{
+    /* vamos declarar nossa
+      variável com o nome de
+      "progress". Ela terá seu
+      valor entre 0 e 100.
+      */
+    margin-left: 360px;
+    margin-top: 100px;
+    --progress: 60;
+    height: 10px;
+    width: 30%;
+    background-color: #ff4c053b;
+    display: flex;
+    border-radius: 30px;
+    border: none;
+    
+  }
+  
+  .progress-bar3::before{
+    content: "";
+    /* aqui estamos chamando
+      nossa variável. Como a
+      largura do pseudo-elemento
+      estará entre 0% e 100%, temos
+      que converter o valor da nossa
+      variável em porcentagem. Para
+      isso, basta multiplicar por 1%.
+      */
+    border-radius: 30px;
+    width: calc(var(--progress) * 1%);
+    background-color: #ff4c05;
+  }
+
+.items-grid4 {
+    /*grid*/
+    display: grid;
+    /*colunas no grid, fr= fração, ele se ajusta deixando os itens em 3 colunas*/
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* espaçamento para o grid entre elementos chamado gap*/
+    gap: 16px;
+}
+
+.items-grid4 li {
+    background-color: #f5f5f5;
+    /* tira a bolinha */
+    list-style: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    height: 80px;
+    padding: 18px 28px;
+    display: flex;
+    flex-direction: row;
+    /*alinha os itens ao centro */
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-grid4 span {
+    font-weight: bold;
+    margin-left: 150px;
+    color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: var(--title-color);
+
+}
+
+.items-grid4 li p {
+    color: #ffffff;
+    padding-top: 60px;
+    padding-right: 80px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    color: var(--title-color);
+
+}
+
+.items-grid4 li.selected {
+    background-color: #ffffff;
+    border: 3px solid #ff4c05;
+}
+
+.items-grid4 li img,
+.items-grid4 li span {
+/*não deixa o evento de clique acontecer */
+pointer-events: none;
+}
+
+/* cadastro parte detalhes */
+
+.progress-bar4{
+    /* vamos declarar nossa
+      variável com o nome de
+      "progress". Ela terá seu
+      valor entre 0 e 100.
+      */
+    margin-left: 360px;
+    margin-top: 100px;
+    --progress: 80;
+    height: 10px;
+    width: 30%;
+    background-color: #ff4c053b;
+    display: flex;
+    border-radius: 30px;
+    border: none;
+    
+  }
+  
+  .progress-bar4::before{
+    content: "";
+    /* aqui estamos chamando
+      nossa variável. Como a
+      largura do pseudo-elemento
+      estará entre 0% e 100%, temos
+      que converter o valor da nossa
+      variável em porcentagem. Para
+      isso, basta multiplicar por 1%.
+      */
+    border-radius: 30px;
+    width: calc(var(--progress) * 1%);
+    background-color: #ff4c05;
+  }
+
+

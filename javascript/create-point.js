@@ -1,10 +1,8 @@
 function populateUFs () {
     const ufSelect = document.querySelector("select[name=uf]")
-    fetch("https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3304557/distritos")
+    fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados?orderBy=nome")
     .then( res => res.json() )
     .then( states => {
-
-        //Rio 3304557
 
         for( const state of states ) {
             ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
@@ -23,8 +21,8 @@ function getCities(event) {
 
     const indexOfSelectedState = event.target.selectedIndex
     stateInput.value = event.target.options[indexOfSelectedState].text
-    
-    const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/33/municipios`
+
+    const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufValue}/municipios`
 
 
     citySelect.innerHTML = "<option value>Selecione a Cidade</option>"
