@@ -141,15 +141,22 @@ section .wrapper .content.texto-destaque h1 {
 section .wrapper .content.texto-destaque h2 {
 	padding-bottom: 3%;
 }
+section .wrapper .col-3 h3 {
+	margin-left: 35px;
+}
+section .wrapper .col-3 .botao-por-favor button {
+	margin-left: 49px;
+}
 section .wrapper .col-3 {
-    width: 40%;
+    width: 25%;
     margin: 0 auto;
     padding: 1px;
-	margin-right: 6%;
-	float: right;
+    margin-left: 5%;
+    margin-right: 17%;
+    float: right;
 }
 section .wrapper .col-3 img {
-	width: 100%;
+	width: 400px;
     height: 432px;
     margin-bottom: 7%;
     border-radius: 10px;
@@ -238,8 +245,8 @@ section .wrapper .corpo .caixa-0 {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 380px;
-    padding-top: 380px;
+    padding-bottom: 350px;
+    padding-top: 350px;
 }
 .corponutricionista2 {
 	background-image: url("../imagens/nutricionista-caixa.jpg");
@@ -248,8 +255,8 @@ section .wrapper .corpo .caixa-0 {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 380px;
-    padding-top: 380px;
+    padding-bottom: 320px;
+    padding-top: 320px;
 }
 .banneryoga {
 	background-image: url("../imagens/banneryoga.jpeg");
@@ -341,9 +348,9 @@ section .wrapper .corpo .caixa-0 {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 250px;
-    margin: 180% 0 0%;
-    padding-top: 250px;
+	padding-bottom: 250px;
+    margin: 208% 0 0%;
+    padding-top: 350px;
 }
 .box-content {
 	position: absolute;
@@ -370,7 +377,7 @@ section .wrapper .box-corpo .caixa.lado {
     margin: 0 auto;
     flex-direction: row;
     float: left;
-    width: 33%;
+    width: 43%;
 	padding: 5px;
 	margin-bottom: 2%;
 }
