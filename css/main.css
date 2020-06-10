@@ -4,7 +4,6 @@ Branco: #ffffff */
 
 /* Botao menu */
 .botao01 {
-	
 	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffa812), color-stop(1, #62bd35) );
 	background:-moz-linear-gradient( center top, #ffa812 5%, #62bd35 100% ); */
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000', endColorstr='#000');
@@ -44,8 +43,8 @@ Branco: #ffffff */
 	background-color: #3fca35;
 	color: #ffffff;
 	text-decoration: none;
-	
-}.botao01:active {
+}
+.botao01:active {
 	position:relative;
 	top:1px;
 }
@@ -57,7 +56,6 @@ Branco: #ffffff */
     height: auto;
     width: 100%;
 }
-
 body {
     color: black;
     font-family: 'roboto', sans-serif;
@@ -75,22 +73,18 @@ header {
     width: 100%;
 }
 header .wrapper {
-	
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .bloco-wrapper {
 	margin-left: 70px;
 }
-
 header .wrapper .menu .logo1 .logo {
     margin: 0px;
     padding: 0px;
     width: 100%;
-	
 }
 header .wrapper .menu .logo {
     height: auto;
@@ -119,7 +113,6 @@ header .wrapper .menu-item {
     float: left;
     position: relative;
 }
-
 header .wrapper .menu-item a {
     text-decoration: none;
     font-weight: medium;
@@ -192,7 +185,8 @@ section .wrapper .testo {
     position: relative;
     width: 75%;
     word-break: break-word;
-    text-align: center;
+	text-align: center;
+	margin-bottom: 40px;
 }
 section .wrapper .corpo {
 	width: 100%;
@@ -210,13 +204,14 @@ section .wrapper .corpo .caixa-nutri {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 section .wrapper .corpo .caixa-0 {
 	margin-top: 5%;
     width: 90%;
     margin: 0 auto;
 }
-
 /*inicio parallax serviços*/
 .bannerservicos {
 	background-image: url("../imagens/bannerservicos.jpg");
@@ -307,6 +302,7 @@ section .wrapper .corpo .caixa-0 {
 	background-attachment: fixed;
 	padding-top: 380px;
 	padding-bottom: 380px;
+	margin-bottom: 5%;
 }
 .paralax-yoga {
 	background-image: url("../submenu/img/parallax-yoga.jpg");
@@ -317,6 +313,7 @@ section .wrapper .corpo .caixa-0 {
 	background-attachment: fixed;
 	padding-top: 380px;
 	padding-bottom: 380px;
+	margin-bottom: 5%;
 }
 .box-1 {
 	background-image: url("../imagens/bannerartesmarciais.jpg");
@@ -338,7 +335,8 @@ section .wrapper .corpo .caixa-0 {
     background-size: cover;
     background-attachment: fixed;
     padding-top: 300px;
-    padding-bottom: 250px;
+	padding-bottom: 250px;
+	margin-bottom: 40px;
 }
 .box-3 {
 	background-image: url("../imagens/lutas.jpg");
@@ -349,7 +347,7 @@ section .wrapper .corpo .caixa-0 {
     background-size: cover;
     background-attachment: fixed;
 	padding-bottom: 250px;
-    margin: 208% 0 0%;
+    margin: 216% 0 0%;
     padding-top: 350px;
 }
 .box-content {
@@ -367,7 +365,7 @@ section .wrapper .box-corpo {
     margin: 0 auto;
     float: left;
     display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 section .wrapper .box-corpo .caixa.lado p {
 	text-align: justify;
@@ -401,6 +399,12 @@ section .wrapper .box-corpo .caixa.lado {
 	color: #47dd3b;
 }
 /*fim lutas parte text*/
+#sub-menu-espaco {
+	margin-top: 40px;
+}
+#sub-menu-espaco .wrapper {
+	margin-bottom: 40px;
+}
 section .wrapper .corpo .caixa-0 img {
 	width: 43%;
 	float: left;
@@ -419,7 +423,7 @@ section .wrapper .corpo .caixa-1 {
 	margin-top: 5%;
     width: 90%;
 	margin: 0 auto;
-	margin-bottom: 122px;
+	margin-bottom: 109px;
 }
 section .wrapper .corpo .caixa-1 img {
 	width: 43%;
