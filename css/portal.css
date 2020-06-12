@@ -1,0 +1,74 @@
+/* ------------ menu ---------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+header {
+    margin-left: 0px;
+    padding-top: 20px;
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+}
+header .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bloco-wrapper {
+    margin-left: 70px;
+}
+header .wrapper .menu .logo1 .logo {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+header .wrapper .menu .logo {
+    height: auto;
+    max-width: 130px;
+    position: relative;
+    top: 0px;
+    padding: 6px;
+    padding-right: 1%;
+    padding-left: 3%;
+}
+header .wrapper .menu {
+    list-style: none;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: flex-end;
+    height: 77%;
+    margin: 0 auto;
+    top: 4%;
+    position: relative;
+    text-transform: uppercase;
+}
+header .wrapper .menu-item {
+       position: relative;
+        float: left;
+
+}
+header .wrapper .menu-item a {
+    text-decoration: none;
+    font-weight: medium;
+    color: #000;
+    font-size: 14px;
+    border-radius: 3px;
+    display: block;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+.perfil{
+    margin-right: 205px;
+}
+
+/* ------------ menu ---------------- */
