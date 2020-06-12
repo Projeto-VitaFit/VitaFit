@@ -793,10 +793,10 @@ p {
 	line-height: 35px;
 }
 .statss{
-    background: #121212;
+    background: #ffffff;
     padding-top: 80px;
     padding-bottom: 88px;
-    color: #47dd3b;
+    color: #ff4c05;
     background-attachment: fixed;
     margin-top: 209px;
 }
@@ -806,7 +806,8 @@ p {
 .statss-items h2{
     font-weight: bold;
     font-size: 42px;
-    color: #ff4c05;
+	color: #777;
+	margin: 10px;
 }
 .statss p{
     font-weight: bold;
