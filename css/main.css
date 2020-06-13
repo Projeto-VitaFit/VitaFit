@@ -781,7 +781,8 @@ p {
 }
 
 .textoApresentacao {
-	text-align: center;
+	text-align: justify;
+	text-indent: 50px;
 	display: flex;
 	font-size: 18px;
 	color: #777;
@@ -853,7 +854,8 @@ p {
 	margin-right: auto;
 }
 .text4{
-	text-align: center;
+	text-align: justify;
+	text-indent: 50px;
 	display: flex;
 	font-size: 18px;
 	color: #777;
@@ -973,10 +975,14 @@ footer .wrapper .rodape {
 .paragrafo2-dicas {
 	margin-right: 37px;
 	margin-left:  70px;
+	text-align: justify;
+	text-indent: 50px;
 	line-height: 30px;
 }
 
 .paragrafo3-dicas {
+	text-align: justify;
+	text-indent: 50px;
 	margin-top: 10px;
 	margin-right: 30px;
 	margin-left:  50px;
@@ -985,6 +991,8 @@ footer .wrapper .rodape {
 
 .exercicio-espaco-dicas1, .exercicio-espaco-dicas2, .exercicio-espaco-dicas3, .exercicio-espaco-dicas4, .exercicio-espaco-dicas5, .exercicio-espaco-dicas6   {
 	line-height: 25px;
+	text-align: justify;
+	text-indent: 50px;
 }
 
 #exercicio1 {
@@ -1052,7 +1060,8 @@ footer .wrapper .rodape {
 }
 
 .paragrafo1-dicas {
-	text-align: center;
+	text-align: justify;
+	text-indent: 50px;
 	padding: 5px 150px 0px 150px;
 	line-height: 35px;
 }
@@ -1171,8 +1180,10 @@ footer .wrapper .rodape {
 }
 
 .card-text {
-	text-align: center;
-	line-height: 25px;
+	
+	text-align: justify;
+	text-indent: 50px;
+	line-height: 20px;
 }
 
 .stats {
