@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+        <link rel="stylesheet" href="../css/portal.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="sortcut icon" href="imagens/logo04.jpg" type="image/jpg"/>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <title>VitaFit</title>
+
+    </head>
+    <body>  
+		<div class="bloco wrapper">
+            
+			<header>
+				<div class="wrapper">
+					<ul class="menu">
+						<li class="menu-item perfil"><a>Perfil</a></li>	
+					</ul>
+
+					<ul class="menu">
+						<li class="logo1">
+							<a><img src="../imagens/logo.png" class="logo"></a>
+						</li>
+					</ul>
+
+					<ul class="menu">
+						<li class="menu-item mural"><a>Mural</a></li>
+						<li class="menu-item combinacao"><a>Combinação</a></li>
+						<li class="menu-item bate-papo"><a>Bate-papo</a></li>
+					
+					</ul> 
+				</div>
+			</header>
+		</div>
+
+		<aside id="filt">
+			<div class="corpo-div">
+				<h1 class="titulo">Filtrar</h1>
+
+			<div class="filtro">
+
+			<p><label for="sexo">Sexo:</label>
+				<select id="sexo">
+					<option value="F">Femininno</option>
+					<option value="M">Masculino</option>
+					
+				</select></p>
+
+				 <div class="field-group">
+                    <div class="field">
+                        <label for="state">Estado:</label>
+                        <select name="uf" required>
+                            <option value="">Selecione o Estado</option>  
+                        </select>
+                        
+                        <input type="hidden" name="state">
+                    </div>
+
+
+                    <div class="field">
+                        <label for="city">Município:</label>
+                        <select name="city" disabled required>
+                            <option value="">Selecione o Município</option>
+                        </select>
+                    </div>
+
+                    <div class="ativi">
+
+					<legend>Atividade:</legend>
+
+					<input type="radio" id="danca" name="atividade" value="danca">
+					<label for="danca">Dança</label>
+
+					<br><br>
+
+					<input type="radio" id="pilates" name="atividade" value="pilates">
+					<label for="pilates">Pilates</label>
+
+					<br><br>
+
+					<input type="radio" id="artesmarciais" name="atividade" value="artesmarciais">
+					<label for="artesmarciais">Artes Marciais</label>
+
+					<br><br>
+
+					<input type="radio" id="personaltrainer" name="atividade" value="personaltrainer">
+					<label for="personaltrainer"> Personal Trainer</label>
+
+					<br><br>
+
+					<input type="radio" id="nutri" name="atividade" value="nutri">
+					<label for="nutricionista"> Nutricionista</label>
+
+					<br><br>
+
+					<input type="radio" id="yoga" name="atividade" value="yoga">
+					<label for="yoga"> Yoga</label>
+					</div>
+				</div>
+
+				<div class="botao">
+
+				<button class="button button1">Enviar</button>
+
+			</div>
+		</div>
+
+			</div>
+			</aside>	
+
+		<div>
+
+		<section id="combina">
+			ddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+		</section>
+		</div>
+		<script src="../javascript/create-point.js"></script>
+	</body>
+</html>

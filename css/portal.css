@@ -72,3 +72,94 @@ header .wrapper .menu-item a {
 }
 
 /* ------------ menu ---------------- */
+
+aside#filt{
+    display: block;
+    width: calc(35% - 170px); 
+    float: right;
+    padding: 3px; /* desgrudar das bordas */
+ border-left: #ff4c05 2px solid;
+    
+}
+
+section#combina {
+    display: block;
+    width: 280px;
+    float: left;
+    padding: 5px;  /* desgrudar das bordas */
+   
+
+}
+
+
+body {
+    color: black;
+    font-family: 'roboto', sans-serif;
+    max-height: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: black
+}
+
+.titulo {
+    text-align: center;
+}
+
+.filtro {
+    text-align: justify;
+    margin-top: 45px;
+     
+
+}
+
+.field, .ativi{
+    margin-top: 20px;
+}
+
+.ativi {
+    margin-bottom: 30px;
+}
+
+legend {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border-radius: 8px;
+  color:  black;
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color:  #ff4c05; 
+  border: 2px solid  #ff4c05;
+}
+
+.button1:hover {
+  background-color:  #ff4c05;
+  color: white;
+}
+
+.botao {
+    text-align: center;
+}
+
+
+.corpo-div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
