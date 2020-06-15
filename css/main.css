@@ -477,9 +477,6 @@ section .wrapper .corpo .caixa-1 h1{
 
 /* Fim do Menu */
 
-/* Conteudo Home */
-
-
 h1 { 
 	margin: 0 auto;
 	display: flex;
@@ -514,121 +511,6 @@ p {
 	margin-bottom: 20px;
 }
 
-.imagens-servico {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.nomes-servico  {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	text-align: center;
-}
-
-
-.paragrafo-servicos {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	text-align: center;
-	padding-left: 20px;
-}
-
-.imagens-suaforma {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.nomes-suaforma {
-	padding-top: 20px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding-bottom: 20px;
-}
-
-.dieta  {
-	padding-top: 20px;
-	padding-bottom: 60px;
-}
-
-.acompanhamento {
-	padding-top: 20px;
-}
-
-.avaliacao {
-	padding-top: 20px;
-}
-
-
-.conteudo-esquerda {
-	padding-top: 5px;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding-left: 50px;
-	padding-bottom: 25px;
-}
-
-.conteudo-paragrafo {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding-left: 50px;
-}
-
-.imagem-revolucao {
-	float: right;
-	padding-top: 15px;
-	padding-bottom: 50px;
-}
-
-.conteudo2 {
-	padding-top: 100px;
-}
-
-.conteudo3 {
-	padding-top: 200px;
-	padding-bottom: 250px;
-}
-.conteudo-direita {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding-left: 50px;
-	padding-bottom: 25px;
-}
-
-.imagem-avaliacao {
-	float: left;
-	padding-top: 12px;
-	padding-bottom: 50px;
-}
-
-.h11 {
-	padding-top: 80px;
-	
-}
-
-.h22 {
-	padding-top: 20px;
-	padding-bottom: 50px;
-}
-/* Botão 1 */
-
-.btns  {
-	display: flex;
-	
-}
-
-.botao-por-favor {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
 
 .efeito2 {
 	border: none;
@@ -690,41 +572,7 @@ p {
 }
 
 
-/* Efeito Parallax ------*/
-.caixa1, .caixa2, .caixa3, .caixa4 {
-	position: relative;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-}
 
-.caixa1 {
-	background-image: url("../imagens/bannerbemvindo.jpg");
-}
-
-.caixa2{
-	background-image: url("../imagens/bannerdicas.jpg");
-}
-
-.caixa3{
-	background-image: url("../imagens/bannercoronga.jpg");
-}
-
-.caixa4{
-	background-image: url("../imagens/bannercoronga2.jpg")
-}
-
-.conteudo-titulo {
-	position: absolute;
-	left: 45%;
-	top: 45%;
-	color: #fff;
-	padding: 18px;
-	font-size: 25px;
-
-}
 
 .h1-dietas {
 	padding-top: 20px;
@@ -743,37 +591,13 @@ p {
 	font-size: 18px;
 }
 
-.h1-cadastro {
-	margin-top: 100px;
-	margin-right: 500px;
-	font-size: 90px;
-	color: #ffffff;
-	width: 100%;
-	text-align: center;
-}
-
 .conteudo-dietas {
 	position: absolute;
 	left: 50%;
 	top: 20%;
 }
 
-.conteudo-cadastro {
-	position: absolute;
 
-}
-
-.space-list{
-	padding: 0px 0px 22px;
-}
-
-.conteudo-paragrafo-lista {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	padding-left: 70px;
-}
-/* Fim do Home */
 /* Começo do sobre */
 
 .container {
