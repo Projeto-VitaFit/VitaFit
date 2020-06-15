@@ -71,8 +71,8 @@ header .wrapper .menu-item a .bi {
     width: 30px;
 }
 
-.perfil {
-    margin-right: 205px;
+header .wrapper .menu-item.perfil {
+    left: -100%;
 }
 
 /* ------------ menu ---------------- */
