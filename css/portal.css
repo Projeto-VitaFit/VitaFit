@@ -174,11 +174,83 @@ legend {
 .botao {
     text-align: center;
 }
-
-
 .corpo-div {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
 }
-
+/* começo section */
+section #box-1 {
+    border: 1px solid #333;
+    box-shadow: 5px 5px #333;
+}
+section #foto {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-left: 130px;
+}
+section #foto img {
+    z-index: 3;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    float: left;
+    box-shadow: 0px 2px 2px 2px rgb(141, 141, 141);
+}
+section #foto p {
+    top: 136px;
+    position: relative;
+}
+section #caixa1 {
+    width: 100%;
+    right: 1px;
+    position: relative;
+    height: 50px;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    box-shadow: 0px 1px 1px 1px #000;
+}
+section #nome {
+    font-size: large;
+    color: #47dd3b;
+    font-weight: 900;
+}
+section .box-1 {
+    width: 90%;
+    height: 205px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    box-shadow: 0px 1px 1px 1px #000;
+}
+section .box-2 {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px #333;
+    position: relative;
+    right: 1px;
+    height: 215%;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 1px 1px 1px #000;
+}
+section .box-2 .linha-pequena {
+    width: 200px;
+}
+section .box-2 .cubo {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    float: left;
+    margin-left: 160px;
+    padding-top: 15px;
+}
+section .box-2 .cubo .titulo-principal {
+    font-weight: bolder;
+    font-size: larger;
+}

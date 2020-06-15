@@ -135,21 +135,21 @@ section .wrapper .content.texto-destaque h2 {
 	padding-bottom: 3%;
 }
 section .wrapper .col-3 h3 {
-	margin-left: 35px;
+	margin-left: 115px;
 }
 section .wrapper .col-3 .botao-por-favor button {
-	margin-left: 49px;
+	margin-left: 125px;
 }
 section .wrapper .col-3 {
     width: 25%;
     margin: 0 auto;
     padding: 1px;
-    margin-left: 5%;
+    margin-left: 7%;
     margin-right: 17%;
     float: right;
 }
 section .wrapper .col-3 img {
-	width: 400px;
+	width: 450px;
     height: 432px;
     margin-bottom: 7%;
     border-radius: 10px;
