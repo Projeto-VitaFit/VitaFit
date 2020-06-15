@@ -186,9 +186,9 @@ section #box-1 {
 }
 section #foto {
     width: 400px;
-    height: 200px;
+    height: 207px;
     margin: 0 auto;
-    border: 1px solid white;
+    border: 1px;
     margin-left: 130px;
 }
 section #foto img {
@@ -213,6 +213,9 @@ section #caixa1 {
     border-right: 1px solid #333;
     box-shadow: 0px 1px 1px 1px #000;
 }
+section #foto p {
+    margin-left: 55%;
+}
 section #nome {
     font-size: large;
     color: #47dd3b;
@@ -232,6 +235,7 @@ section .box-2 {
     position: relative;
     right: 1px;
     height: 215%;
+    margin-bottom: 10px;
     border-bottom: 1px solid #333;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
@@ -247,7 +251,7 @@ section .box-2 .cubo {
     flex-wrap: wrap;
     position: relative;
     float: left;
-    margin-left: 160px;
+    margin-left: 150px;
     padding-top: 15px;
 }
 section .box-2 .cubo .titulo-principal {
