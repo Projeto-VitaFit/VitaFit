@@ -1,5 +1,4 @@
 /* ------------ menu ---------------- */
-
 * {
     padding: 0;
     margin: 0;
@@ -19,6 +18,7 @@ header .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #aeb9aebd;
 }
 .bloco-wrapper {
     margin-left: 70px;
@@ -51,9 +51,9 @@ header .wrapper .menu {
     text-transform: uppercase;
 }
 header .wrapper .menu-item {
-       position: relative;
-        float: left;
-
+    position: relative;
+    float: left;
+    left: 95%;
 }
 header .wrapper .menu-item a {
     text-decoration: none;
@@ -65,9 +65,13 @@ header .wrapper .menu-item a {
     padding: 15px;
     margin-top: 15px;
 }
+header .wrapper .menu-item a .bi {
+    color: #ff4c05;
+    height: 30px;
+    width: 30px;
+}
 
-
-.perfil{
+.perfil {
     margin-right: 205px;
 }
 
