@@ -43,7 +43,7 @@ header .wrapper .menu .logo {
 }
 header .wrapper .menu {
     list-style: none;
-    padding: 5px 0;
+    padding: 9px 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -68,17 +68,20 @@ header .wrapper .menu-item a {
     font-size: 14px;
     border-radius: 3px;
     display: block;
-    padding: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 12px;
 }
 header .wrapper .menu-item a .bi {
     color: #ff4c05;
     height: 30px;
     width: 30px;
 }
+header .wrapper .menu-item a .bi:hover {
+    color: #e75d26;
+}
 
 header .wrapper .menu-item.perfil {
-    left: 0%;
+    left: 5%;
     margin-top: -29px;
 }
 header .wrapper .menu-item.perfil img {
