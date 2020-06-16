@@ -202,7 +202,7 @@ form {
     background: #31D324;
 }
 #myFooter{
-    padding-top:65px;
+    padding-top:32px;
 }
 
 #myFooter .container{
@@ -253,8 +253,8 @@ form {
     color: #d0d0d0;
     border-radius: 51%;
     padding: 10px;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
     text-align: center;
     line-height: 43px;
     text-decoration: none;
@@ -284,20 +284,4 @@ form {
 
 #myFooter .fa-twitter:focus{
     color:#ff4c05;
-}
-.social {
-	display: flex;
-	flex-direction: row;
-	padding-left: 80%;
-	position: relative;
-	padding-top: 18px;
-}
-.face {
-	padding-right: 30px;
-}
-.insta {
-	padding-right: 30px;
-}
-.twitter {
-	padding-right: 30px;
 }
