@@ -597,7 +597,20 @@ p {
 	top: 20%;
 }
 
+.conteudo4 h1 {
+    font-size: 50px;
+    color: #ff4c05;
+    text-align: center;
+}
 
+.conteudo4 p {
+    width: 80%;
+    margin-left: 80px;
+    color: #000;
+    text-align: justify;
+    text-indent: 50px;
+	padding-top: 20px;
+}
 /* Começo do sobre */
 
 .container {
@@ -883,6 +896,21 @@ footer .wrapper .rodape {
 	font-size: 30px;
 }
 
+.submenu-fitoterapia {
+	padding: 0px 0px 10px;
+	font-size: 30px;
+}
+
+.titulo-fitoterapia {
+	margin: 35px;
+	font-size: 55px;
+}
+
+.receita-fito {
+	margin-top: 120px;
+	margin-bottom:30px;
+}
+
 .paragrafo1-dicas {
 	text-align: justify;
 	text-indent: 50px;
@@ -986,6 +1014,14 @@ footer .wrapper .rodape {
 	padding: 0px 0px 0px 80px; 
 }
 
+.dica-p2 {
+	display: flex;
+	justify-content: center;
+	text-indent: 50px;
+	text-align: center;
+
+}
+
 .texto {
 	list-style-type: disc; 
 	padding: 0px 0px 0px 200px;
@@ -1041,13 +1077,17 @@ footer .wrapper .rodape {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 380px;
-    padding-top: 380px;
+    padding-bottom: 280px;
+    padding-top: 280px;
 }
 
 
 
 /* Pag Dicas ------- */
+
+.submenu3-fitoterapia {
+	font-size: 25px;
+}
 
 #fitoterapia1, #fitoterapia2, #fitoterapia3, #fitoterapia4, #fitoterapia5 {
 	display: flex;
@@ -1056,6 +1096,7 @@ footer .wrapper .rodape {
 	justify-content: space-around; 
 	margin: 20px;
 }
+
 #pagpa {
 	display: flex;
 	flex-direction: row;
@@ -1105,6 +1146,11 @@ footer .wrapper .rodape {
 .receita {
 	list-style-type: disc;
 	padding: 0px 0px 0px 35px; 
+}
+
+.ajuste-texto{
+	text-align: justify;
+	text-indent: 50px;
 }
 
 
