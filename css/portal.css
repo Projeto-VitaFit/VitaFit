@@ -258,3 +258,54 @@ section .box-2 .cubo .titulo-principal {
     font-weight: bolder;
     font-size: larger;
 }
+
+/* chat */
+aside {
+    width: 30%;
+    height: 525px;
+    float: left;
+    border-right: 3px solid #333;
+    border-bottom: 3px solid #333;
+}
+aside .conversa p {
+        display: flex;
+        flex-direction: column;
+        left: 25px;
+        top: 15px;
+        position: relative;
+}
+aside .conversa img{
+    float: left;
+    border-radius: 50px;
+}
+aside .conversa {
+    margin-top: -3px;
+    border: 2px solid #ff4c05;
+    padding-bottom: 39px;
+    padding-top: 8px;
+}
+aside .conversa:hover {
+    border: 3px solid #47dd3b;
+    background: rgb(201, 200, 200);
+}
+main {
+    width: 69%;
+    float: right;
+}
+main .box-70 {
+
+}
+main #mensagem {
+    width: 100%;
+    height: 475px;
+}
+main form {
+    width: 100%;
+}
+main input {
+    width: 90%;
+    height: 50px;
+}
+main button {
+    height: 50px;
+}
