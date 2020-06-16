@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="../css/intro.css">
-    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/create-point.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
@@ -47,6 +47,32 @@
                     </div>
                 </div>
 
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="sexo">Sexo
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio" id="feminino" name="sexo" value="F" required>
+                        <label for="sexo">Feminino</label>
+                        <input type="radio" id="masculino" name="sexo" value="M" required>
+                        <label for="sexo">Masculino</label>
+                        <input type="radio" id="outros" name="sexo" value="O" required>
+                        <label for="sexo">Outros</label>
+                        </label>
+
+                    </div>
+
+
+                    <div class="field">
+                        <label for="date
+                        ">Data de nascimento</label>
+                        <input type="date" name="date" required>
+                    </div>
+                </div>
+
+
                 <div class="field-group">
                     <div class="field">
                         <label for="telephone">Telefone</label>
@@ -80,7 +106,7 @@
 
             </fieldset>
 
-            <h1 class="segundoh1">Serviços que lhe interessa:</h1>
+            <h1 class="segundoh1">Serviços</h1>
 
             <fieldset>
                 
@@ -142,19 +168,70 @@
 
             </fieldset>
 
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Nível de escolariedade</h1>
+
+            <fieldset>
+            
+                <div class="field-group">
+                    <div class="field">
+                        <label for="curso">Nome do curso</label>
+                        <input type="text" name="curso" required>
+                    </div>
+                    <div class="field">
+                        <label for="instituicao
+                        ">Instituição</label>
+                        <input type="text" name="instituicao" required>
+                    </div>
+                </div>
 
 
+                  <div class="field-group">
+                    <div class="field">
+                        <label for="conclusao">Ano de conclusão</label>
+                        <input type="text" name="conclusao" required>
+                    </div>
+                    <div class="field">
+                        <label for="outros
+                        ">Outros</label>
+                        <input type="textarea" name="outros" placeholder="Escreva aqui seus cursos extras" required>
+                    </div>
+                </div>
 
 
+                <div class="field-group">
+                    <div class="field">
+                        <label for="sexo">CRM
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio" id="possuo" name="posso" value="possuo" required>
+                        <label for="possuo">Possuo</label>
+                        <input type="radio" id="possui" name="posso" value="possui" required>
+                        <label for="sexo">Não possuo</label>
+                        </label>
 
+                    </div>
 
+                    <div class="field">
+                        <label for="crm">Número do CRM</label>
+                        <input type="number" name="crm" disabled required>
+                    </div>
 
+                </div>
+
+            </fieldset>
+
+            <fieldset>
 
 
 
 
             <div class="bt">
-            <a href="../portal/portal_combinacao.html"><button type="button" class="efeito2 efeito-3">Enviar</button></a>
+            <button type="button" class="efeito2 efeito-3">Enviar</button>
              </div>
 
         </form>
