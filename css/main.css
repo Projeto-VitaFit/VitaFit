@@ -597,7 +597,20 @@ p {
 	top: 20%;
 }
 
+.conteudo4 h1 {
+    font-size: 50px;
+    color: #ff4c05;
+    text-align: center;
+}
 
+.conteudo4 p {
+    width: 80%;
+    margin-left: 80px;
+    color: #000;
+    text-align: justify;
+    text-indent: 50px;
+	padding-top: 20px;
+}
 /* Começo do sobre */
 
 .container {
@@ -984,6 +997,14 @@ footer .wrapper .rodape {
 
 .dica-p {
 	padding: 0px 0px 0px 80px; 
+}
+
+.dica-p2 {
+	display: flex;
+	justify-content: center;
+	text-indent: 50px;
+	text-align: center;
+
 }
 
 .texto {
