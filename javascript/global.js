@@ -1,6 +1,6 @@
 // items de coleta sexo
 // pegar todos os li's
-const itemsToCollect = $(".items-grid2 li .condicionamento")
+const itemsToCollect = $(".items-grid2 li , .condicionamento")
 itemsToCollect.click(handleSelectItem)
 const collectedItems = document.querySelector("input[name=items]")
 let selectedItems = false;
