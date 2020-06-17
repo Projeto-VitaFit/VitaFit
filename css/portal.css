@@ -57,7 +57,7 @@ header .wrapper .menu {
 header .wrapper .menu-item {
     position: relative;
     float: right;
-    left: 75%;
+    left: 71%;
     margin-left: 35px;
 }
 header .wrapper .menu-item a {
@@ -70,18 +70,25 @@ header .wrapper .menu-item a .bi {
     color: #ff4c05;
     height: 30px;
     width: 30px;
+    display: block;
+    position: static;
 }
 header .wrapper .menu-item a .bi:hover {
     color: #e75d26;
 }
-
+header .wrapper .menu-item.espacocombinacao {
+    left: 72%;
+}
+header .wrapper .menu-item.espacoperfil { left: 75%;}
 header .wrapper .menu-item.perfil {
     left: 5%;
     margin-top: -29px;
+    position: static;
 }
 header .wrapper .menu-item.perfil img {
     height: 75px;
     width: 75px;
+    right: 78%;
     border-radius: 39px;
     position: absolute;
 }
@@ -110,6 +117,7 @@ section#combina {
 #combina .imagem-principal img {
     position: relative;
     top: 15px;
+    border-radius: 15px;
 }
 #combina .info {
     width: 45%;
@@ -215,8 +223,11 @@ section #box-1 {
     box-shadow: 5px 5px #333;
 }
 section form input {
-    width: 200px;
+    width: 117px;
     position: absolute;
+    top: 102%;
+    z-index: 5;
+    left: 37px;
 }
 section form {
     width: 400px;
@@ -239,6 +250,7 @@ section #foto img {
     display: flex;
     float: left;
     box-shadow: 0px 2px 2px 2px rgb(141, 141, 141);
+    border-radius: 110px;
 }
 section #foto p {
     top: 136px;
@@ -288,7 +300,16 @@ section .box-2 .right-side {
     position: relative;
     list-style: none;
     float: left;
-    left: 14%;
+    left: 12%;
+    margin-top: 15px;
+}
+section .box-2 .left-side{
+    width: 49%;
+    float: right;
+    margin-top: 15px;
+}
+section .box-2  hr {
+    width: 70%;
 }
 section .box-2 li {
     width: 100%;
@@ -296,11 +317,10 @@ section .box-2 li {
     list-style: none;
     text-decoration: none;
     float: left;
+    margin-bottom: 10px;
 }
-section .box-2 a{text-decoration: none;}
-section .box-2 .left-side{
-    width: 49%;
-    float: right;
+section .box-2 ul li ul li {
+    left: 40px;
 }
 /* chat */
 aside {
