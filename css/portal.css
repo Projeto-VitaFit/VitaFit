@@ -19,7 +19,6 @@ header .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #c0cac0bd;
 }
 .bloco-wrapper {
     margin-left: 70px;
@@ -59,14 +58,10 @@ header .wrapper .menu-item {
     position: relative;
     float: right;
     left: 75%;
-    width: 5%;
+    margin-left: 35px;
 }
 header .wrapper .menu-item a {
-    text-decoration: none;
-    font-weight: medium;
-    color: #000;
     font-size: 14px;
-    border-radius: 3px;
     display: block;
     margin-top: 25px;
     margin-bottom: 12px;
@@ -103,14 +98,49 @@ aside#filt{
 
 section#combina {
     display: block;
-    width: 280px;
+    width: 70%;
     float: left;
     padding: 5px;  /* desgrudar das bordas */
-   
-
 }
-
-
+/* combinação */
+#combina .imagem-principal {
+    width: 48%;
+    margin: 0 auto;
+}
+#combina .imagem-principal img {
+    position: relative;
+    top: 15px;
+}
+#combina .info {
+    width: 45%;
+    position: relative;
+    top: 45px;
+    margin: 0 auto;
+}
+#combina .info p {
+    margin-bottom: 15px;
+}
+#combina .info button {
+    width: 45%;
+    height: 35px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #ff4c05;
+    border: 2px solid #ff4c05;
+}
+#combina .info button:hover {
+    background-color: #ff4c05;
+    color: white;
+}
 body {
     color: black;
     font-family: 'roboto', sans-serif;
@@ -184,6 +214,17 @@ section #box-1 {
     border: 1px solid #333;
     box-shadow: 5px 5px #333;
 }
+section form input {
+    width: 200px;
+    position: absolute;
+}
+section form {
+    width: 400px;
+    height: 207px;
+    margin: 0 auto;
+    border: 1px;
+    position: absolute;
+}
 section #foto {
     width: 400px;
     height: 207px;
@@ -222,7 +263,7 @@ section #nome {
     font-weight: 900;
 }
 section .box-1 {
-    width: 90%;
+    width: 70%;
     height: 205px;
     margin: 0 auto;
     border: 1px solid #333;
@@ -242,26 +283,28 @@ section .box-2 {
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 1px 1px 1px #000;
 }
-section .box-2 .linha-pequena {
-    width: 200px;
-}
-section .box-2 .cubo {
-    width: 200px;
-    display: flex;
-    flex-wrap: wrap;
+section .box-2 .right-side {
+    width: 49%;
     position: relative;
+    list-style: none;
     float: left;
-    margin-left: 150px;
-    padding-top: 15px;
+    left: 14%;
 }
-section .box-2 .cubo .titulo-principal {
-    font-weight: bolder;
-    font-size: larger;
+section .box-2 li {
+    width: 100%;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    float: left;
 }
-
+section .box-2 a{text-decoration: none;}
+section .box-2 .left-side{
+    width: 49%;
+    float: right;
+}
 /* chat */
 aside {
-    width: 30%;
+    width: 25%;
     height: 525px;
     float: left;
     border-right: 3px solid #333;
@@ -274,26 +317,38 @@ aside .conversa p {
         top: 15px;
         position: relative;
 }
-aside .conversa img{
+aside .conversa span {
+    top: 25px;
+    left: 25px;
+    position: relative;
+}
+aside a {
+    text-decoration: none;
+}
+aside .conversa img {
     float: left;
+    top: -1px;
+    left: 5px;
     border-radius: 50px;
+    position: relative;
 }
 aside .conversa {
     margin-top: -3px;
     border: 2px solid #ff4c05;
     padding-bottom: 39px;
     padding-top: 8px;
+    margin-bottom: 4px;
 }
 aside .conversa:hover {
-    border: 3px solid #47dd3b;
-    background: rgb(201, 200, 200);
+    border: 2px solid #47dd3b;
 }
 main {
     width: 69%;
     float: right;
 }
 main .box-70 {
-
+    width: 95%;
+    margin: 0 auto;
 }
 main #mensagem {
     width: 100%;
@@ -305,7 +360,11 @@ main form {
 main input {
     width: 90%;
     height: 50px;
+    font-size: 20pt;
 }
 main button {
-    height: 50px;
+    height: 53px;
+    width: 50px;
+    position: relative;
+    top: -5px;
 }

@@ -1,6 +1,6 @@
 // items de coleta sexo
     // pegar todos os li's
-    const itemsToCollect = document.querySelectorAll(".items-grid2 li")
+    const itemsToCollect = $(".items-grid2 li")
     // add o ouvidor de eventos / click
     for (const item of itemsToCollect) {
         item.addEventListener("click", handleSelectItem)
@@ -61,5 +61,3 @@
     collectedItems.value = selectedItems //sempre atualizar
         
     }
-
-  

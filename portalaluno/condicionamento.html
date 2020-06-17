@@ -1,94 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Vitafit</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro Vitafit</title>
 
-     <link rel="sortcut icon" href="#"/>
+        <link rel="sortcut icon" href="#"/>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="../css/intro.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/create-point.css">
-
-</head>
-<body>
-
-    <div id="page-create-point">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
         
+        <link rel="stylesheet" href="../css/intro.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/create-point.css">
+
+    </head>
+    <body>
+        <div id="page-create-point">
             <header>
-            
-			<img src="../imagens/logo.png" alt="logotipo" style="width: 140px; height: 80px;">
+                <img src="../imagens/logo.png" alt="logotipo" style="width: 140px; height: 80px;">
                 <a href="../home.html">
                     <span></span>
                     Voltar para home
                 </a>
-    
             </header>
-
             <div class="progress-bar3"></div>
-
-            <form action="">
-
+            <form id="formulario-condicionamento" method="POST" action="../portalaluno/detalhes.html">
                 <h1>Qual o seu condicionamento atual?</h1>
                 <h4>Para ter um treino com o nível de dificuldade certo,
                     selecione a opção que mais combine com você.</h4>
-
-                 <fieldset>
-                
-                    <div class="items-grid4">
-
+                <fieldset>
+                    <input type="hidden" name="item">
+                    <div class="items-grid4 condicionamento">
                         <li data-id="1">
                             <img src="../imagens/graphic1.png" style="width: 45px; height: 45px;" alt="fora de forma">
                             <span><strong>Fora de forma</strong><br>se eu me sentar no chão, tenho dificuldade para me levantar.</span>
                         </li>
-
-
                         <li data-id="2">
                             <img src="../imagens/graphic2.png" style="width: 45px; height: 45px;" alt="iniciante">
                             <span><strong>Iniciante</strong><br>exercícios não fazem parte da minha rotina</span>
-                           
                         </li>
-
                         <li data-id="3">
                             <img src="../imagens/graphic3.png" style="width: 45px; height: 45px;" alt="me exercito as vezes">
                             <span><strong>Me exercito às vezes</strong><br>as vezes me exercito o suficiente para suar</span>
-                            
                         </li>
-
                         <li data-id="1">
                             <img src="../imagens/graphic4.png" style="width: 45px; height: 45px;" alt="me exercito regularmente">
                             <span><strong>Me exercito regurlamente</strong><br>faço exercícios pelo menos 2x por semana</span>
-                           
                         </li>
-
-
                         <li data-id="2">
                             <img src="../imagens/graphic5.png" style="width: 45px; height: 45px;" alt="atleta experiente">
                             <span><strong>Atleta experiente</strong><br>eu adoro exercícios e me exercito quase sempre</span>
-                            
                         </li>
-
                         <li data-id="3">
                             <img src="../imagens/graphic6.png" style="width: 45px; height: 45px;" alt="atleta avançado">
                             <span><strong>Atleta avançado</strong><br>acredite, estou realmente em forma</span>
-                            
                         </li>
-
-                    </fieldset>
-
-                    <div class="bt">
-                        <a href="../portalaluno/detalhes.html"><button type="button" class="efeito2 efeito-3">Enviar</button></a>
                     </div>
-
-                
-                </form>
-    </div>
-
-
-<script src="../javascript/condicionamento.js"></script>
-    
-</body>
+                </fieldset>
+                <div class="bt">
+                    <button type="submit" class="efeito2 efeito-3">Enviar</button>
+                </div>        
+            </form>
+        </div>
+        <script src="../javascript/jquery.js"></script>
+        <script src="../javascript/condicionamento.js"></script>
+    </body>
 </html>
