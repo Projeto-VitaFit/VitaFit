@@ -6,8 +6,8 @@
 	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	 <link rel="sortcut icon" href="../imagens/logo04.jpg" type="image/jpg"/>
 	 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	 <title>VitaFit</title>
 	 <link rel="stylesheet" href="../css/portal.css" type="text/css">
+	 <title>VitaFit</title>
 
     </head>
     <body>  
@@ -93,38 +93,63 @@
 				</div>
 
 				<div class="botao">
-
-				<button class="button button1">Enviar</button>
-
+					<button class="button button1">Enviar</button>
+				</div>
 			</div>
-		</div>
-
 			</div>
-			</aside>	
-
+		</aside>	
 		<div>
-
 		<section id="combina">
-			<div class="imagem-principal">
-				<img src="http://placehold.it/500x400" alt="personal">
+			<div id="professor1" style="display: none;">
+				<div class="imagem-principal">
+					<img src="../imagens/dollar-gill-academia.jpg" width="500px" height="400px" alt="personal">
+				</div>
+				<div class="info">
+					<p><strong>Nome:</strong> joaquim vieira</p>
+					<p><strong>Idade:</strong> 25</p>
+					<p><strong>Professor:</strong> Nutrição</p>
+					<p><strong>Tempo de atuaçao:</strong> 4 anos</p>
+					<p><strong>Sobre mim:</strong> Sou formado em educação fisica a 5 anos trabalhei 2 anos em academias mas me sentia muito preso a uma só coisa entao decidi ser livre e trabalhar por conta propria então estou trabalhando de homeoffice e estou sentindo que agora sim consigo ajudar muito mais as pessoas!!!</p>
+					<button onclick="ativar1()">VAMOS TREINAR</button>
+					<button onclick="dispensar1()">NÃO GOSTEI</button>
+				</div>
 			</div>
-			<div class="info">
-				<p><strong>Nome:</strong> Erisen Reis</p>
-				<p><strong>Idade:</strong> 23</p>
-				<p><strong>Professor:</strong> Educador fisico especialista em perda de peso</p>
-				<p><strong>Tempo de atuaçao:</strong> 5 anos</p>
-				<p><strong>Sobre mim:</strong> formado como educador fisico a 5 anos, já trabalhei em escolas e academias renomadas.
-				Hoje atuo como freelancer, buscando promover a saude fisica e mental dos meus clientes, os fazendo chegar a seus objetivos.
-				Trabalho com planos individuais e pacotes semanais e mensais.
-				Entre em contato comigo e vamos treinar!
-				</p>
-				<button>VAMOS TREINAR</button>
-				<button>NÃO GOSTEI</button>
+			<div id="professor2" style="display: none;">
+				<div class="imagem-principal">
+					<img src="../imagens/samuel-girven.jpg" width="500px" height="400px" alt="personal">
+				</div>
+				<div class="info">
+					<p><strong>Nome:</strong> Jessica Lais farias</p>
+					<p><strong>Idade:</strong> 28</p>
+					<p><strong>Professor:</strong> Nutrição</p>
+					<p><strong>Tempo de atuaçao:</strong> 7 anos e meio</p>
+					<p><strong>Sobre mim:</strong> Sou formada em Nutrição a 8 anos e tenho bastante experiencia com homeoffice faço o acompanhamento da sua dieta diariamente beijos vamos treinar!</p>
+					<button onclick="ativar2()">VAMOS TREINAR</button>
+					<button onclick="dispensar2()">NÃO GOSTEI</button>
+				</div>
+			</div>
+			<div id="professor3">
+				<div class="imagem-principal">
+					<img src="../imagens/logan-weaver.jpg" width="500px" height="400px" alt="personal">
+				</div>
+				<div class="info anderson">
+					<p><strong>Nome:</strong> Anderson Nunnes</p>
+					<p><strong>Idade:</strong> 35</p>
+					<p><strong>Professor:</strong> Educador fisico especialista em perda de peso</p>
+					<p><strong>Tempo de atuaçao:</strong> 10 anos</p>
+					<p><strong>Sobre mim:</strong> formado como educador fisico a 15 anos, já trabalhei em escolas e academias renomadas.
+						Hoje atuo como freelancer, buscando promover a saude fisica e mental dos meus clientes, os fazendo chegar a seus objetivos.
+						Trabalho com planos individuais e pacotes semanais e mensais.
+						Entre em contato comigo e vamos treinar!
+					</p>
+					<button onclick="ativar3()">VAMOS TREINAR</button>
+					<button onclick="dispensar3()">NÃO GOSTEI</button>
+				</div>
 			</div>
 		</section>
 		</div>
-		<script src="../javascript/create-point.js"></script>
 		<script src="../javascript/jquery.js"></script>
+		<script src="../javascript/create-point.js"></script>
 		<script src="js/portal.js"></script>
 	</body>
 </html>

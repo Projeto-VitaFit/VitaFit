@@ -28,3 +28,36 @@ function updadefotoperfil() {
         }
     }
 }
+function dispensar3() {
+    $('#professor1').show(300);
+    $('#professor2').hide(300);
+    $('#professor3').hide(300);
+}
+function dispensar2() {
+    $('#professor1').hide(300);
+    $('#professor2').hide(300);
+    $('#professor3').show(300);
+}
+function dispensar1() {
+    $('#professor1').hide(300);
+    $('#professor2').show(300);
+    $('#professor3').hide(300);
+}
+function ativar3() {
+    alert("o professor foi adicionado a sua lista, enviamos uma mensagem para ele saber que voce esta interessado em treinar!!!");
+    $('#professor1').show(300);
+    $('#professor2').hide(300);
+    $('#professor3').hide(300);
+}
+function ativar2() {
+    alert("o professor foi adicionado a sua lista, enviamos uma mensagem para ele saber que voce esta interessado em treinar!!!");
+    $('#professor1').hide(300);
+    $('#professor2').hide(300);
+    $('#professor3').show(300);
+}
+function ativar1() {
+    alert("o professor foi adicionado a sua lista, enviamos uma mensagem para ele saber que voce esta interessado em treinar!!!");
+    $('#professor1').hide(300);
+    $('#professor2').show(300);
+    $('#professor3').hide(300);
+}
