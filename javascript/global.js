@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", function() {
         var valorEmail = localStorage.getItem("email");
         var valorItems = localStorage.getItem("tipo");
         if (valorUsuario) {
-            usuarioCadastro.val(valorUsuario);
-            emailCadastro.val(valorEmail);
+            // usuarioCadastro.val(valorUsuario);
+            // emailCadastro.val(valorEmail);
         }
         if (valorItems) {
             itemsCadastro.val(valorItems);
