@@ -330,6 +330,7 @@ aside {
     float: left;
     border-right: 3px solid #333;
     border-bottom: 3px solid #333;
+    border-top: 3px solid #333;
 }
 aside .conversa p {
         display: flex;
@@ -402,4 +403,15 @@ main button {
     width: 50px;
     position: relative;
     top: -5px;
+}
+#mural .btn {
+    color: white;
+    background: #ff4c05;
+}
+#mural .btn:hover {
+    background: #e75d26;
+}
+#mural {
+    width: 90%;
+    margin: 0 auto;
 }

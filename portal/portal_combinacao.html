@@ -8,11 +8,9 @@
 	 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	 <link rel="stylesheet" href="../css/portal.css" type="text/css">
 	 <title>VitaFit</title>
-
     </head>
     <body>  
 		<div class="bloco wrapper">
-            
 			<header>
 				<div class="wrapper">
 					<ul class="menu">
@@ -57,41 +55,27 @@
                             <option value="">Selecione o Município</option>
                         </select>
                     </div>
-
                     <div class="ativi">
-
 					<legend>Atividade:</legend>
-
 					<input type="radio" id="danca" name="atividade" value="danca">
 					<label for="danca">Dança</label>
-
 					<br><br>
-
 					<input type="radio" id="pilates" name="atividade" value="pilates">
 					<label for="pilates">Pilates</label>
-
 					<br><br>
-
 					<input type="radio" id="artesmarciais" name="atividade" value="artesmarciais">
 					<label for="artesmarciais">Artes Marciais</label>
-
 					<br><br>
-
 					<input type="radio" id="personaltrainer" name="atividade" value="personaltrainer">
 					<label for="personaltrainer"> Personal Trainer</label>
-
 					<br><br>
-
 					<input type="radio" id="nutri" name="atividade" value="nutri">
 					<label for="nutricionista"> Nutricionista</label>
-
 					<br><br>
-
 					<input type="radio" id="yoga" name="atividade" value="yoga">
 					<label for="yoga"> Yoga</label>
 					</div>
 				</div>
-
 				<div class="botao">
 					<button class="button button1">Enviar</button>
 				</div>
@@ -99,54 +83,54 @@
 			</div>
 		</aside>	
 		<div>
-		<section id="combina">
-			<div id="professor1" style="display: none;">
-				<div class="imagem-principal">
-					<img src="../imagens/dollar-gill-academia.jpg" width="500px" height="400px" alt="personal">
+			<section id="combina">
+				<div id="professor1" style="display: none;">
+					<div class="imagem-principal">
+						<img src="../imagens/dollar-gill-academia.jpg" width="500px" height="400px" alt="personal">
+					</div>
+					<div class="info">
+						<p><strong>Nome:</strong> joaquim vieira</p>
+						<p><strong>Idade:</strong> 25</p>
+						<p><strong>Professor:</strong> Educador fisico focado em musculação</p>
+						<p><strong>Tempo de atuaçao:</strong> 4 anos</p>
+						<p><strong>Sobre mim:</strong> Sou formado em educação fisica a 5 anos trabalhei 2 anos em academias mas me sentia muito preso a uma só coisa entao decidi ser livre e trabalhar por conta propria então estou trabalhando de homeoffice e estou sentindo que agora sim consigo ajudar muito mais as pessoas!!!</p>
+						<button onclick="ativar1()">VAMOS TREINAR</button>
+						<button onclick="dispensar1()">NÃO GOSTEI</button>
+					</div>
 				</div>
-				<div class="info">
-					<p><strong>Nome:</strong> joaquim vieira</p>
-					<p><strong>Idade:</strong> 25</p>
-					<p><strong>Professor:</strong> Nutrição</p>
-					<p><strong>Tempo de atuaçao:</strong> 4 anos</p>
-					<p><strong>Sobre mim:</strong> Sou formado em educação fisica a 5 anos trabalhei 2 anos em academias mas me sentia muito preso a uma só coisa entao decidi ser livre e trabalhar por conta propria então estou trabalhando de homeoffice e estou sentindo que agora sim consigo ajudar muito mais as pessoas!!!</p>
-					<button onclick="ativar1()">VAMOS TREINAR</button>
-					<button onclick="dispensar1()">NÃO GOSTEI</button>
+				<div id="professor2" style="display: none;">
+					<div class="imagem-principal">
+						<img src="../imagens/samuel-girven.jpg" width="500px" height="400px" alt="personal">
+					</div>
+					<div class="info">
+						<p><strong>Nome:</strong> Jessica Lais farias</p>
+						<p><strong>Idade:</strong> 28</p>
+						<p><strong>Professor:</strong> Nutrição</p>
+						<p><strong>Tempo de atuaçao:</strong> 7 anos e meio</p>
+						<p><strong>Sobre mim:</strong> Sou formada em Nutrição a 8 anos e tenho bastante experiencia com homeoffice faço o acompanhamento da sua dieta diariamente beijos vamos treinar!</p>
+						<button onclick="ativar2()">VAMOS TREINAR</button>
+						<button onclick="dispensar2()">NÃO GOSTEI</button>
+					</div>
 				</div>
-			</div>
-			<div id="professor2" style="display: none;">
-				<div class="imagem-principal">
-					<img src="../imagens/samuel-girven.jpg" width="500px" height="400px" alt="personal">
+				<div id="professor3">
+					<div class="imagem-principal">
+						<img src="../imagens/logan-weaver.jpg" width="500px" height="400px" alt="personal">
+					</div>
+					<div class="info anderson">
+						<p><strong>Nome:</strong> Anderson Nunnes</p>
+						<p><strong>Idade:</strong> 35</p>
+						<p><strong>Professor:</strong> Educador fisico especialista em perda de peso</p>
+						<p><strong>Tempo de atuaçao:</strong> 10 anos</p>
+						<p><strong>Sobre mim:</strong> formado como educador fisico a 15 anos, já trabalhei em escolas e academias renomadas.
+							Hoje atuo como freelancer, buscando promover a saude fisica e mental dos meus clientes, os fazendo chegar a seus objetivos.
+							Trabalho com planos individuais e pacotes semanais e mensais.
+							Entre em contato comigo e vamos treinar!
+						</p>
+						<button onclick="ativar3()">VAMOS TREINAR</button>
+						<button onclick="dispensar3()">NÃO GOSTEI</button>
+					</div>
 				</div>
-				<div class="info">
-					<p><strong>Nome:</strong> Jessica Lais farias</p>
-					<p><strong>Idade:</strong> 28</p>
-					<p><strong>Professor:</strong> Nutrição</p>
-					<p><strong>Tempo de atuaçao:</strong> 7 anos e meio</p>
-					<p><strong>Sobre mim:</strong> Sou formada em Nutrição a 8 anos e tenho bastante experiencia com homeoffice faço o acompanhamento da sua dieta diariamente beijos vamos treinar!</p>
-					<button onclick="ativar2()">VAMOS TREINAR</button>
-					<button onclick="dispensar2()">NÃO GOSTEI</button>
-				</div>
-			</div>
-			<div id="professor3">
-				<div class="imagem-principal">
-					<img src="../imagens/logan-weaver.jpg" width="500px" height="400px" alt="personal">
-				</div>
-				<div class="info anderson">
-					<p><strong>Nome:</strong> Anderson Nunnes</p>
-					<p><strong>Idade:</strong> 35</p>
-					<p><strong>Professor:</strong> Educador fisico especialista em perda de peso</p>
-					<p><strong>Tempo de atuaçao:</strong> 10 anos</p>
-					<p><strong>Sobre mim:</strong> formado como educador fisico a 15 anos, já trabalhei em escolas e academias renomadas.
-						Hoje atuo como freelancer, buscando promover a saude fisica e mental dos meus clientes, os fazendo chegar a seus objetivos.
-						Trabalho com planos individuais e pacotes semanais e mensais.
-						Entre em contato comigo e vamos treinar!
-					</p>
-					<button onclick="ativar3()">VAMOS TREINAR</button>
-					<button onclick="dispensar3()">NÃO GOSTEI</button>
-				</div>
-			</div>
-		</section>
+			</section>
 		</div>
 		<script src="../javascript/jquery.js"></script>
 		<script src="../javascript/create-point.js"></script>
