@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function() {
             itemsCadastro.val(valorItems);
             var toactivate = document.querySelector(".items-grid2 li[data-id='"+valorItems+"']");
             if (toactivate) {
-                toactivate.classList.add("selected");
+                // toactivate.classList.add("selected");
             }
         }
     }

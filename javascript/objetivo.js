@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
             valueitems.push("forma");
             var toactivate = document.querySelector(".items-grid3 li[data-id='forma']");
             if (toactivate) {
-                toactivate.classList.add("selected");
+                // toactivate.classList.add("selected");
             }
         }
         var tonificado = JSON.parse(localStorage.getItem("tonificado"));
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
             valueitems.push("tonificado");
             var toactivate = document.querySelector(".items-grid3 li[data-id='tonificado']");
             if (toactivate) {
-                toactivate.classList.add("selected");
+                // toactivate.classList.add("selected");
             }
         }
         var perderpeso = JSON.parse(localStorage.getItem("perderpeso"));
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
             valueitems.push("perderpeso");
             var toactivate = document.querySelector(".items-grid3 li[data-id='perderpeso']");
             if (toactivate) {
-                toactivate.classList.add("selected");
+                // toactivate.classList.add("selected");
             }
         }
         itemsCadastro.val(valueitems.join(","));
