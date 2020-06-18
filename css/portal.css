@@ -158,7 +158,7 @@ body {
 }
 
 h1 {
-    color: black
+    color: #ff4c05;
 }
 
 .titulo {
@@ -262,10 +262,7 @@ section #caixa1 {
     right: 1px;
     position: relative;
     height: 50px;
-    border-bottom: 1px solid #333;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
-    box-shadow: 0px 1px 1px 1px #000;
+;
 }
 section #foto p {
     margin-left: 55%;
@@ -279,8 +276,7 @@ section .box-1 {
     width: 70%;
     height: 205px;
     margin: 0 auto;
-    border: 1px solid #333;
-    box-shadow: 0px 1px 1px 1px #000;
+   
 }
 section .box-2 {
     width: 100%;
@@ -290,11 +286,6 @@ section .box-2 {
     right: 1px;
     height: 215%;
     margin-bottom: 10px;
-    border-bottom: 1px solid #333;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0px 1px 1px 1px #000;
 }
 section .box-2 .right-side {
     width: 49%;
@@ -328,9 +319,7 @@ aside {
     width: 25%;
     height: 525px;
     float: left;
-    border-right: 3px solid #333;
-    border-bottom: 3px solid #333;
-    border-top: 3px solid #333;
+   
 }
 aside .conversa p {
         display: flex;
